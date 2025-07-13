@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  object-detection:
+    build:
+      context: .
+      dockerfile: HCMAI/src/processing/object_detection/Dockerfile
+    container_name: hcmai-object-detection
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
+    volumes:
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/src:/workspace/src
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/data:/workspace/data
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/local:/workspace/local
+    working_dir: /workspace

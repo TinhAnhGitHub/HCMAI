@@ -1,0 +1,1 @@
+python image_demo.py   /workspace/data/subset_data/keyframe/L01_V002.mp4/00019984.webp   /workspace/src/processing/object_detection/LLMDet/configs/grounding_dino_swin_l.py   --weights /workspace/local/LLMDet/large.pth   --texts 'Taylor Swift'   --pred-score-thr 0.4
