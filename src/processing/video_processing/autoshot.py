@@ -7,8 +7,8 @@ from torch.nn import Module
 
 
 
-from transnet_v2 import TransNetV2
-from utils import get_batches, get_frames
+from .transnet_v2 import TransNetV2
+from .utils import get_batches, get_frames
 
 
 

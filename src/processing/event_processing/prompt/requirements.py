@@ -27,28 +27,32 @@ requirements_prompt = """
 
 3.Ở mỗi sự kiện, hãy làm cho những câu theo đúng chuẩn tiếng việt hơn(như in hoa tên riêng, dấu chấm dấu phẩy, lọc ra những câu ko liên quan, ...). Tôi muốn bạn giữ lại giọng nói nội dung, giữ tất cả các thông tin(đặc biệt là các con số, thông tin về thời gian cột mốc cái diễn biến ). Và cho tôi một câu tóm tắt cho từng sự kiện đó. 
 
+4. Những đoạn sự kiện bắt đầu giới thiệu hãy bỏ đi
+
 4. Mỗi nội dung sẽ có cấu trúc như sau:
 
 ```json
 [
     {
-        "eve": "<nội dung tóm tắt sự kiện>",
-        "ts": ["<hh:mm:ss.ms>", "<hh:mm:ss.ms>"],
-        "cnt": "<Nội dung giọng nói, để nguyên>",
+        "eve": "<Tiêu đề sự kiện>",
+        "sum": "<Tóm tắt nội dung sự kiên>"
+        "ts": ["<start frame number>", "<end frame number>"],
+        "cnt": "<Nội dung giọng nói, để nguyên, có chỉnh sửa chính tả>",
     }, 
     {
-        "eve": "<nội dung tóm tắt sự kiện>",
-        "ts": ["<hh:mm:ss.ms>", "<hh:mm:ss.ms>"],
-        "cnt": "<Nội dung giọng nói, để nguyên>",
+        "eve": "<Tiêu đề sự kiện>",
+        "sum": "<Tóm tắt nội dung sự kiên>"
+        "ts": ["<start frame number>", "<end frame number>"],
+        "cnt": "<Nội dung giọng nói, để nguyên, có chỉnh sửa chính tả>",
     }, 
     {
-        "eve": "<nội dung tóm tắt sự kiện>",
-        "ts": ["<hh:mm:ss.ms>", "<hh:mm:ss.ms>"],
-        "cnt": "<Nội dung giọng nói, để nguyên>",
+        "eve": "<Tiêu đề sự kiện>",
+        "sum": "<Tóm tắt nội dung sự kiên>"
+        "ts": ["<start frame number>", "<end frame number>"],
+        "cnt": "<Nội dung giọng nói, để nguyên, có chỉnh sửa chính tả>",
     }, 
 ]
 ```
-Trong đó:  ["<hh:mm:ss.ms>", "<hh:mm:ss.ms>"] tương ứng với thời gian bắt đầu và kết thúc
 
 """
 

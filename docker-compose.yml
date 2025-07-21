@@ -20,3 +20,27 @@ services:
       - /media/tinhanhnguyen/Data1/Projects/HCMAI/data:/workspace/data
       - /media/tinhanhnguyen/Data1/Projects/HCMAI/local:/workspace/local
     working_dir: /workspace
+  
+
+
+  arangodb:
+    image: arangodb:3.12
+    container_name: hcmai-arangodb
+    environment:
+      - ARANGO_ROOT_PASSWORD=12345678
+    ports:
+      - "8529:8529"
+    volumes:
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/src:/workspace/src
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/data:/workspace/data
+      - /media/tinhanhnguyen/Data1/Projects/HCMAI/local:/workspace/local
+      - arango_data:/var/lib/arangodb3
+      - arango_apps:/var/lib/arangodb3-apps
+    stdin_open: true
+    tty: true
+    working_dir: /workspace
+    restart: unless-stopped
+
+volumes:
+  arango_data:
+  arango_apps:

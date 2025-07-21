@@ -7,8 +7,8 @@ from tqdm import tqdm
 from pathlib import Path
 import argparse
 
-from remove_duplicate import DDTNearDuplicateRemoval
-from autoshot import AutoShot
+from .remove_duplicate import DDTNearDuplicateRemoval
+from .autoshot import AutoShot
 
 
 class KeyFrameExtractor:
@@ -146,7 +146,7 @@ class KeyFrameExtractor:
 
 
 
-def process_single_video(video_path: str, shot_detector: AutoShot, keyframe_extractor: KeyFrameExtractor) -> Dict[str, Any]:
+def process_single_video(video_path: str, shot_detector: AutoShot, keyframe_extractor: KeyFrameExtractor, return_keyframes: bool=True) -> Dict[str, Any] | list:
     """
     Process a single video file.
 
@@ -162,6 +162,11 @@ def process_single_video(video_path: str, shot_detector: AutoShot, keyframe_extr
 
     
     scenes = shot_detector.process_video(video_path=video_path)
+
+    if not return_keyframes:
+        return scenes
+
+
     result["scenes"] = scenes
 
     if scenes:
