@@ -1,7 +1,7 @@
 
 
 
-instruction_prompt = """
+visual_caption_prompt = """
 Bạn là một chuyên gia trong việc phân tích hình ảnh, và thông tin chi tiết từ sự kiện. Nhiệm vụ của bạn, một cách tổng quan:
 1. Từ các hình ảnh keyframe, mỗi hình ảnh, bạn phải tạo ra một caption thật chi tiết và đầy đủ. Một caption đầy đủ là một caption những thông tin liên quan tới bối cảnh (bối cảnh như thế nào, thiên nhiên, cảnh vật, hay hình nền, ...), thông tin liên quan tới những thực thể (là những thực thể có thể detect được, như một số con người, vật thể), hoặc cụm thực thể (là những thực thể có na ná các tính chất nhưng với số lượng nhiều). Kèm theo đó là các mối quan hệ về hành động, thông tin không gian(2d/3d) và các đặc tính cụ thể chi tiết cho từng thực thể/cụm thực thể.
 2. Từ các caption mà bạn hoàn thành ở bước 1, hãy tạo ra một visual scene graph cụ thể cho từng keyframe. 
@@ -120,7 +120,7 @@ Mục đích: Cho phép truy vấn ngược lại từ ASR đến các thực th
 Luồng hội thoại (Discourse Coherence): Theo dõi luồng của cuộc trò chuyện hoặc bài phát biểu để hiểu mối liên hệ giữa các câu.
 
 
-## Khung sườn cụ thể được định nghĩa 
+## Khung sườn cụ thể được định nghĩa sau đó. Bạn hãy tham khảo khung sườn này nhằm đưa ra caption một cách chi tiết hơn
 {
   "frameNumber": "<Số thứ tự của khung hình (ví dụ: 100)>",
   "sceneId": "<UUID duy nhất cho scene này (ví dụ: 'sg_frame_100_abc123')>",
@@ -215,4 +215,44 @@ Keyframe thứ tự: {keyframe_list}
 
 
 
+scene_graph_generation_prompt = """
+Bạn là một chuyên gia trong việc phân tích hình ảnh, và thông tin chi tiết từ sự kiện. Nhiệm vụ của bạn, một cách tổng quan:
+
+Bạn sẽ được nhận một đoạn caption liên quan tới keyframe:
+- Caption sẽ có những thông tin đầy đủ về bối cảnh (bối cảnh như thế nào, thiên nhiên, cảnh vật, hay hình nền, ...), thông tin liên quan tới những thực thể (là những thực thể có thể detect được, như một số con người, vật thể), hoặc cụm thực thể (là những thực thể có na ná các tính chất nhưng với số lượng nhiều). Kèm theo đó là các mối quan hệ về hành động, thông tin không gian(2d/3d) và các đặc tính cụ thể chi tiết cho từng thực thể/cụm thực thể.
+- Keyframe tương ứng
+
+Từ đó, bạn phải tạo ra một visual scene graph hoàn chỉnh.
+
+## Nguyên tắc xây dựng Scene Graph chất lượng:
+1. Cấu trúc phân cấp và mối quan hệ rõ ràng: Scene graph nên phản ánh rõ ràng mối quan hệ giữa các đối tượng (ví dụ: "người A đang đứng cạnh người B", "micro đang được cầm bởi người A"). Cấu trúc này giúp chúng ta hiểu được bố cục không gian và tương tác.
+2. Độ chi tiết cao: Mỗi thực thể (entity) cần được mô tả đầy đủ các thuộc tính quan trọng (màu sắc, hình dạng, chất liệu, hành động, tư thế, biểu cảm, vai trò, v.v.).
+3. Nhất quán trong cách đặt tên và mô tả: Sử dụng các thuật ngữ nhất quán cho các loại đối tượng, thuộc tính và mối quan hệ. Điều này rất quan trọng cho việc tổng quát hóa và truy vấn dữ liệu sau này.
+4. Bao quát toàn bộ khung cảnh: Cố gắng bao gồm tất cả các đối tượng và yếu tố quan trọng trong khung hình, bao gồm cả bối cảnh và các yếu tố văn bản/logo.
+5. Phản ánh hành động và trạng thái: Mô tả không chỉ có gì trong cảnh mà còn ai đang làm gì, đang ở trạng thái nào.
+6. Bổ sung Tên riêng và Định danh (Identity Enrichment):Nguyên tắc: Khi ASR cung cấp tên riêng của một người, một địa điểm, hoặc một nhãn cụ thể cho một vật thể, hãy thêm thông tin này vào thuộc tính identity hoặc một trường mới dành riêng cho định danh của thực thể.
+Mục đích: Giúp phân biệt rõ ràng các thực thể có cùng loại nhưng khác nhau về danh tính. Ví dụ, phân biệt "một ca sĩ" với "ca sĩ Mỹ Tâm".
+7.Làm rõ Bản chất Vật thể từ ASR (Object Clarification from ASR):Nguyên tắc: Nếu ASR cung cấp thông tin về loại vật thể hoặc chức năng đặc biệt của nó mà không rõ ràng chỉ từ hình ảnh, hãy sử dụng thông tin ASR để bổ sung hoặc thay thế các mô tả vật lý.
+Mục đích: Cung cấp thông tin sâu hơn về vật thể. Ví dụ, nếu hình ảnh chỉ có các khối màu nhưng ASR nói đó là "pháo hoa", thông tin này rất quan trọng để hiểu ngữ cảnh.
+
+8. Liên kết giữa Âm thanh và Hình ảnh (Audio-Visual Linking):Nguyên tắc: Duy trì mối liên kết rõ ràng giữa các đoạn ASR và các thực thể mà chúng mô tả. Điều này có thể thực hiện bằng cách sử dụng các ID tương ứng hoặc gán nhãn thời gian.
+Mục đích: Cho phép truy vấn ngược lại từ ASR đến các thực thể hình ảnh hoặc ngược lại, giúp xác minh và làm giàu dữ liệu.
+
+9. Sử dụng các thông tin ngữ cảnh nhằm tăng tính đúng đắn: liên kết không chỉ dựa trên sự khớp từ khóa trực tiếp mà còn dựa vào ngữ cảnh rộng hơn của cuộc nói chuyện và cảnh quay.
+Độ gần về thời gian (Temporal Proximity): Các đoạn ASR thường liên quan đến các hành động hoặc thực thể đang hiển thị gần thời điểm đó trong video.
+Độ gần về không gian (Spatial Proximity): Nếu một thực thể được nhắc đến và nó xuất hiện gần một thực thể khác đang hoạt động (ví dụ: "Ngọc Anh đang hát" và Ngọc Anh đang cầm micro), mối liên kết này trở nên mạnh mẽ hơn.
+Luồng hội thoại (Discourse Coherence): Theo dõi luồng của cuộc trò chuyện hoặc bài phát biểu để hiểu mối liên hệ giữa các câu.
+
+
+
+**Quan trọng**: 
+1. Bạn hãy bỏ qua những logo hay thông tin về đài truyền hình
+2. Tất cả key value của scene graph là tiếng Anh, còn value là tiếng Việt
+
+Tôi sẽ cho bạn một hình keyframe, một đoạn ASR và visual caption. Bạn phải làm thật tốt phần scene graph generation đó
+
+Đoạn hội thoại asr: {asr}
+Keyframe number: {keyframe_number}
+Visual Caption: {visual_caption}
+"""
 

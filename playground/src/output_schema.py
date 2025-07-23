@@ -77,8 +77,8 @@ class ObjectVisual(BaseModel):
 
 
 class TextContent(BaseModel):
-    content: str = Field(..., description="Nội dung OCR có trên khung hình/vật thể/...")
-    description: str = Field(..., description="ý nghĩa của nội dung OCR.")
+    content: str | None = Field(..., description="Nội dung OCR có trên khung hình/vật thể/...")
+    description: str | None = Field(..., description="ý nghĩa của nội dung OCR.")
     
     
 
@@ -180,30 +180,25 @@ class GroupHumanEntities(BaseModel):
     
 
 class EntityIsObject(BaseModel):
-    type_discriminator: Literal["object"] = "object"
-    object_details: ObjectVisual = Field(..., description="Chi tiết trực quan và chức năng của vật thể.")
+    object_details: ObjectVisual | None= Field(None, description="Chi tiết trực quan và chức năng của vật thể.")
     
 
 class EntityIsHuman(BaseModel):
-    type_discriminator: Literal["human"] = "human"
-    human_details: HumanVisual = Field(..., description="Chi tiết trực quan và hành vi của con người.")
+    human_details: HumanVisual | None = Field(None, description="Chi tiết trực quan và hành vi của con người.")
     
 
 
 class EntityIsGroup(BaseModel):
-    type_discriminator: Literal["group"] = "group"
-    group_info: Union[GroupObjectEntities, GroupHumanEntities] = Field(
-        ..., description="Chi tiết nhóm vật thể hoặc nhóm người."
+    group_info: Union[GroupObjectEntities, GroupHumanEntities] | None = Field(
+        None, description="Chi tiết nhóm vật thể hoặc nhóm người."
     )
     
 
 class EntityIsOCR(BaseModel):
-    type_discriminator: Literal["ocr"] = "ocr"
     text_content: TextContent = Field(..., description="Nội dung văn bản được nhận dạng từ hình ảnh hoặc video.")
-    
 
 
-SpecificEntityTypeAttributes = Union[EntityIsObject, EntityIsHuman, EntityIsGroup, EntityIsOCR]
+# SpecificEntityTypeAttributes = Union[EntityIsObject, EntityIsHuman, EntityIsGroup, EntityIsOCR]
 
 
 class IdentityInfo(BaseModel):
@@ -216,9 +211,14 @@ class IdentityInfo(BaseModel):
 class EntityAttributes(BaseModel):
     identity: Optional[IdentityInfo] = Field(None, description="Thông tin định danh  của thực thể, có thể lấy từ ảnh, ASR, ....")
     position: Optional[Union[Position2D, Position3D]] = Field(None  , description="Vị trí thực thể")
-    specific_attributes: Optional[SpecificEntityTypeAttributes] = Field(
-        None, description="Các thuộc tính chi tiết tùy thuộc vào loại thực thể ."
-    )
+
+    object_attributes: Optional[EntityIsObject] = Field(None, description="Thuộc tính chi tiết của vật thể, nếu như là vật thể. Bỏ qua nếu không phải vật thể")
+    human_attributes: Optional[EntityIsHuman] = Field(None, description="Thuộc tính chi tiết của con người, nếu như là con người. Bỏ qua nếu không phải là con người")
+    group_attributes: Optional[EntityIsGroup] = Field(None, description="Thuộc tính chi tiết của một nhóm, nếu như là một nhóm. Bỏ qua nếu không phải là một nhóm")
+    ocr_attibutes: Optional[EntityIsOCR] = Field(None, description="Thuộc tính chi tiết của một dòng nội dung OCR, nếu như là một dòng nội dung OCR. Bỏ qua nếu không phải là một dòng nội dung OCR")
+    # specific_attributes: Optional[Union[EntityIsObject, EntityIsHuman, EntityIsGroup, EntityIsOCR]] = Field(
+    #     None, description="Các thuộc tính chi tiết tùy thuộc vào loại thực thể ."
+    # )
 
     
 
@@ -285,8 +285,9 @@ class SceneGraph(BaseModel):
             "UUID duy nhất cho scene graph"
         )
     )
-    entities: List[Entity] = Field(..., description="Danh sách các thực thể trong scene")
-    relations: List[Relation] = Field(..., description="Danh sách các mối quan hệ giữa các thực thể")
+    scene_desription: SceneDescription = Field(..., description="Thông tin về cảnh quan ảnh")
+    entities: list[Entity] = Field(..., description="Danh sách các thực thể trong scene")
+    relations: list[Relation] = Field(..., description="Danh sách các mối quan hệ giữa các thực thể")
     
 
 
@@ -311,13 +312,14 @@ class OutputVisualCaption(BaseModel):
 
 class AnalysisStartEvent(StartEvent):
     image_paths: list[str]
-    ast_text: str
+    asr_text: str
 
 
 class CaptionAndImageEvent(Event):
-    keyframe_number: int
+    keyframe_number: str
     visual_caption: str
     image_path: str
+    asr_text: str
 
 
 class AllCaptionGeneratedEvent(Event):
@@ -333,6 +335,21 @@ class AnalysisCompleteEvent(StopEvent):
     """Final event holding all the generated scene graphs."""
     scene_graphs: List[SceneGraph]
 
+
+
+
+
+class DebugIntermediate(Event):
+    caption_image_event: CaptionAndImageEvent
+    scene_graph: SceneGraph
+
+class IntermediateResultEvent(Event):
+    result: DebugIntermediate
+class DebugEndEvent(StopEvent):
+    end_result : list[DebugIntermediate]
+
+class AllCaptionsDispatchedEvent(Event):
+    caption_count: int
 
 
 
