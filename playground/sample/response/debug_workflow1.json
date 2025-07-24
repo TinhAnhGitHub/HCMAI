@@ -1,0 +1,3469 @@
+[
+    {
+        "caption_image_event": {
+            "keyframe_number": "1297",
+            "visual_caption": "Một khung cảnh sân khấu rộng lớn với ánh sáng chuyên nghiệp, nơi một phông nền kỹ thuật số màu xanh dương chủ đạo đang hiển thị thông tin chi tiết về một sự kiện quan trọng. Phía trên cùng của phông nền, các dòng chữ trắng nổi bật công bố \"Đơn vị bảo trợ: BỘ GIÁO DỤC VÀ ĐÀO TẠO - BỘ THÔNG TIN VÀ TRUYỀN THÔNG\" và \"Hosted by: MINISTRY OF EDUCATION AND TRAINING - MINISTRY OF INFORMATION AND COMMUNICATIONS\", cho thấy sự tham gia của các cơ quan chính phủ. Bên dưới là thông tin về đơn vị tổ chức, bao gồm \"CỤC CÔNG NGHỆ THÔNG TIN - BỘ GDĐT\" cùng với \"ICT DEPARTMENT\" và \"HIỆP HỘI AN TOÀN THÔNG TIN VIỆT NAM\" với \"VIETNAM INFORMATION SECURITY ASSOCIATION\". Trung tâm phông nền là tiêu đề lớn \"GIẢI NHẤT Jeopardy\", cùng với tên sự kiện chính thức \"CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023\" và bản dịch tiếng Anh \"ASEAN STUDENT CONTEST ON INFORMATION SECURITY 2023\". Địa điểm và thời gian diễn ra là \"Hà Nội, ngày 28/10/2023\", được hiển thị rõ ràng. Phía dưới màn hình, các logo của nhà tài trợ chính và đồng tài trợ được trưng bày, bao gồm Viettel, Napas, và NFTN@M. Ngoài ra, các đơn vị đồng tổ chức như Học viện Công nghệ Bưu chính Viễn thông (PTIT), An Toàn Thông Tin Truyền Thông, Mathad và Viettel Security cũng được thể hiện qua các logo và dòng chữ đi kèm. Tổng thể khung cảnh cho thấy sự chuyên nghiệp và quy mô của một sự kiện công nghệ và giáo dục cấp quốc gia và khu vực.",
+            "image_path": "../sample/event_0/00001297.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0001",
+            "sce_des": "Tổng quan khung cảnh cho thấy một màn hình hiển thị lớn, rõ nét với nền màu xanh đậm chủ đạo và các hoa văn mô phỏng mạch điện tử, tạo cảm giác hiện đại và liên quan đến công nghệ thông tin. Ánh sáng được phát ra trực tiếp từ màn hình, làm nổi bật các thông tin được trình bày, cho thấy đây là một phần của sự kiện trong nhà với hệ thống chiếu sáng chuyên nghiệp. Bối cảnh chung là một buổi lễ tổng kết và trao giải của một cuộc thi quy mô quốc tế, tập trung vào lĩnh vực an toàn thông tin. Khung hình nền màn hình được bố trí rõ ràng, thể hiện đầy đủ các thông tin quan trọng về cuộc thi và các đơn vị đồng hành.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "Màn hình hiển thị chính",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "giữa khung hình, chiếm phần lớn diện tích",
+                        "pos3d": "trung tâm của không gian sự kiện"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật lớn, màu xanh đậm với các chi tiết đường kẻ sáng mô phỏng mạch điện tử, chữ viết màu trắng và vàng nổi bật",
+                        "func": "hiển thị thông tin chính về cuộc thi, các đơn vị tổ chức, tài trợ và kết quả sự kiện"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "Nhóm logo và tên tổ chức/tài trợ",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phân bổ ở các góc trên và dưới của màn hình",
+                        "pos3d": "trên cùng một mặt phẳng với màn hình hiển thị chính"
+                    },
+                    "attr": {
+                        "vis": "nhiều logo và tên thương hiệu khác nhau về màu sắc và kích thước (như Viettel, Napas, NETN@M, PTIT, VNISA), được sắp xếp theo từng nhóm chức năng (bảo trợ, tổ chức, tài trợ chính, đồng tài trợ, đồng phối hợp), tất cả đều có phông chữ rõ ràng, dễ đọc trên nền xanh",
+                        "func": "đại diện cho các đơn vị đã đóng góp và hỗ trợ cho cuộc thi, bao gồm các bộ, cục, hiệp hội, và các doanh nghiệp lớn",
+                        "des": "các biểu tượng và dòng chữ được sắp xếp khoa học, thể hiện vai trò của từng đơn vị trong việc bảo trợ, tổ chức, tài trợ và phối hợp thực hiện cuộc thi, mang lại cái nhìn tổng thể về quy mô và sự hợp tác đa bên của sự kiện",
+                        "amount": "hơn 10 logo và tên tổ chức"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình hiển thị chính (E1) trình bày và làm nổi bật các logo và tên tổ chức/tài trợ (E2) ở các vị trí khác nhau trên bề mặt của nó."
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "Đơn vị bảo trợ: BỘ GIÁO DỤC VÀ ĐÀO TẠO - BỘ THÔNG TIN VÀ TRUYỀN THÔNG Hosted by: MINISTRY OF EDUCATION AND TRAINING - MINISTRY OF INFORMATION AND COMMUNICATIONS",
+                    "des": "Thông tin về đơn vị bảo trợ sự kiện"
+                },
+                {
+                    "content": "Đơn vị tổ chức | Organized by CỤC CÔNG NGHỆ THÔNG TIN - BỘ GDDT ICT DEPARTMENT",
+                    "des": "Thông tin về đơn vị tổ chức sự kiện"
+                },
+                {
+                    "content": "CỤC AN TOÀN THÔNG TIN, VỤ HỢP TÁC QUỐC TẾ - BỘ TT&TT AUTHORITY OF INFORMATION SECURITY, DEPT. OF INTERNATIONAL COOPERATION",
+                    "des": "Thông tin về đơn vị tổ chức và hợp tác"
+                },
+                {
+                    "content": "VNISA HIỆP HỘI AN TOÀN THÔNG TIN VIỆT NAM VIETNAM INFORMATION SECURITY ASSOCIATION",
+                    "des": "Logo và tên Hiệp hội An toàn thông tin Việt Nam"
+                },
+                {
+                    "content": "GIẢI NHẤT Jeopardy",
+                    "des": "Tiêu đề lớn về giải thưởng và thể loại thi"
+                },
+                {
+                    "content": "CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023 ASEAN STUDENT CONTEST ON INFORMATION SECURITY 2023",
+                    "des": "Tên đầy đủ của cuộc thi"
+                },
+                {
+                    "content": "Hà Nội, ngày 28/10/2023",
+                    "des": "Địa điểm và thời gian diễn ra sự kiện"
+                },
+                {
+                    "content": "Tài trợ chính | Principal sponsor viettel Theo cách của bạn",
+                    "des": "Thông tin nhà tài trợ chính Viettel"
+                },
+                {
+                    "content": "Đơn vị đồng cai: HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
+                    "des": "Thông tin đơn vị đồng tổ chức"
+                },
+                {
+                    "content": "Đồng tài trợ | Co-sponsors napas NETN@M",
+                    "des": "Thông tin các nhà đồng tài trợ Napas và NETN@M"
+                },
+                {
+                    "content": "Đơn vị phối hợp | Co-coordination AN TOÀN THÔNG TIN TRUYỀN THÔNG MATBAO viettel security",
+                    "des": "Thông tin các đơn vị phối hợp"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1370",
+            "visual_caption": "Trong một khoảnh khắc trang trọng trên sân khấu được chiếu sáng rực rỡ, một lễ trao giải đang diễn ra với bầu không khí vui tươi và tự hào. Một người đàn ông lớn tuổi hơn, có mái tóc muối tiêu và mặc bộ vest màu xám lịch sự, đang đứng ở phía trái khung hình, hướng về phía một nhóm các thanh niên. Ông ấy đang trao một tấm bảng khen thưởng màu trắng có dòng chữ \"GIẢI NHẤT Jeopardy\" cho một chàng trai trẻ tuổi đứng ở vị trí trung tâm, người này mặc áo polo màu xanh đậm và quần tối màu, với vẻ mặt rạng rỡ. Ngay bên cạnh, một chàng trai trẻ khác, cũng mặc áo polo xanh, đang cầm một bó hoa tươi thắm màu hồng và trắng, vẻ mặt anh cũng tràn đầy niềm vui. Phía bên phải, ba chàng trai trẻ tuổi khác, cùng trong bộ đồng phục áo polo xanh, đang đứng thẳng, ánh mắt hướng về phía người trao giải, thể hiện sự nghiêm túc và tập trung. Dưới cùng của khung hình, một dòng chữ màu đỏ chạy ngang màn hình với nội dung \"TRAO GIẢI CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023\", xác nhận bối cảnh của sự kiện này. Bức ảnh ghi lại khoảnh khắc vinh quang của những người chiến thắng, với sự trang trọng và hân hoan rõ nét.",
+            "image_path": "../sample/event_0/00001370.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_001",
+            "sce_des": "Buổi lễ trao giải cuộc thi An toàn thông tin ASEAN 2023 diễn ra trên sân khấu lớn với phông nền xanh dương hiện đại. Khung cảnh tràn ngập ánh sáng sân khấu, thể hiện sự trang trọng của sự kiện.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "người trao giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái của khung hình, gần trung tâm",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo vest màu xám, áo sơ mi trắng, cà vạt sẫm màu",
+                        "vis": "nam, khoảng 50-60 tuổi, tóc bạc, vẻ mặt nghiêm túc nhưng tươi tắn, có nụ cười nhẹ",
+                        "role": "người đại diện ban tổ chức hoặc khách mời quan trọng"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở trung tâm khung hình, hơi chếch về bên trái",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh navy với cổ và viền tay áo màu trắng, có logo đỏ trắng trên ngực trái, đeo thẻ tên/phù hiệu màu trắng có dây đeo xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, dáng người thon gọn, biểu cảm vui vẻ, tươi cười rạng rỡ",
+                        "role": "thành viên đội đạt giải nhất"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở trung tâm khung hình, đứng sau E2",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh navy với cổ và viền tay áo màu trắng, có logo đỏ trắng trên ngực trái, đeo thẻ tên/phù hiệu màu trắng có dây đeo xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, biểu cảm tập trung",
+                        "role": "thành viên đội đạt giải nhất"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở trung tâm khung hình, đứng sau E3",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh navy với cổ và viền tay áo màu trắng, có logo đỏ trắng trên ngực trái, đeo thẻ tên/phù hiệu màu trắng có dây đeo xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, biểu cảm nghiêm túc",
+                        "role": "thành viên đội đạt giải nhất"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên phải",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh navy với cổ và viền tay áo màu trắng, có logo đỏ trắng trên ngực trái, đeo thẻ tên/phù hiệu màu trắng có dây đeo xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, đeo kính gọng đen, tóc đen ngắn, biểu cảm nghiêm túc",
+                        "role": "thành viên đội đạt giải nhất"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": {
+                        "name": null,
+                        "label": "tấm bảng giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật nằm ngang, màu trắng và xanh dương nhạt ở dưới, có logo đỏ trắng ở góc trên bên trái",
+                        "func": "dùng để công nhận giải thưởng"
+                    }
+                },
+                {
+                    "id_": "O2",
+                    "iden": {
+                        "name": null,
+                        "label": "bó hoa",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, bên phải O1",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "một bó hoa đa sắc (hồng, trắng, xanh) được bọc trong giấy màu hồng nhạt, thắt nơ",
+                        "func": "quà tặng chúc mừng"
+                    }
+                },
+                {
+                    "id_": "G1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "từ giữa khung hình sang phải",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "role": "đội tuyển giành giải nhất",
+                        "clothing": "đồng phục áo polo xanh navy với cổ và viền tay áo trắng, có logo đội/trường",
+                        "vis": "đều là nam giới trẻ tuổi, khoảng U25",
+                        "des": "đứng thẳng hàng để nhận giải thưởng",
+                        "amount": "4 người"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "G1",
+                    "type_rel": "hành động",
+                    "des": "đang trao giải thưởng cho nhóm sinh viên"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "đang bắt tay với"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O1",
+                    "type_rel": "hành động",
+                    "des": "đang cùng cầm"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O1",
+                    "type_rel": "hành động",
+                    "des": "đang cùng cầm"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O2",
+                    "type_rel": "hành động",
+                    "des": "đang ôm"
+                },
+                {
+                    "subj": "G1",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang nhận giải thưởng từ"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "G1",
+                    "type_rel": "thuộc tính",
+                    "des": "là một thành viên của"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "G1",
+                    "type_rel": "thuộc tính",
+                    "des": "là một thành viên của"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "G1",
+                    "type_rel": "thuộc tính",
+                    "des": "là một thành viên của"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "G1",
+                    "type_rel": "thuộc tính",
+                    "des": "là một thành viên của"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "GIẢI NHẤT",
+                    "des": "Tên giải thưởng"
+                },
+                {
+                    "content": "Jeopardy",
+                    "des": "Tên đội hoặc dạng giải"
+                },
+                {
+                    "content": "TRAO GIẢI CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023",
+                    "des": "Tên sự kiện và năm tổ chức"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1546",
+            "visual_caption": "Phông nền kỹ thuật số trên sân khấu tiếp tục hiển thị thông tin về cuộc thi, nhưng lần này với tiêu đề nổi bật là \"GIẢI NHÌ Jeopardy\". Bối cảnh và bố cục tương tự như khung hình đầu tiên, vẫn giữ gam màu xanh dương chủ đạo với các họa tiết mạng lưới công nghệ. Các dòng chữ vẫn liệt kê đầy đủ thông tin về \"CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023\" và \"ASEAN STUDENT CONTEST ON INFORMATION SECURITY 2023\", cùng với địa điểm và thời gian \"Hà Nội, ngày 28/10/2023\". Dưới tiêu đề \"GIẢI NHÌ\", tên của các đội hoặc cá nhân đạt giải nhì được hiển thị dưới dạng hình ảnh mờ của người và tên kèm theo, như \"Trần Hiếu Tài\", \"Nguyễn Minh Hiếu\", \"Nguyễn Công Hải Nam\" và \"Dương Quang Mích\", cho thấy sự tôn vinh chi tiết từng thành viên. Logo của các nhà tài trợ và đơn vị tổ chức, bao gồm Viettel, Napas, NFTN@M, PTIT, An Toàn Thông Tin Truyền Thông, Mathad và Viettel Security, vẫn được trình bày ở phía dưới, khẳng định sự hỗ trợ đa dạng cho cuộc thi. Một tên đội thi \"MSEC_HUNT\" cùng với \"Học viện Kỹ thuật Quân sự\" cũng được thấy, gợi ý về một trong những đội đạt giải nhì. Tổng thể, màn hình này thông báo về những người đạt giải nhì, duy trì sự trang trọng và thông tin đầy đủ của buổi lễ.",
+            "image_path": "../sample/event_0/00001546.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_001",
+            "sce_des": "Bối cảnh là một sân khấu hoặc hội trường lớn, nơi một màn hình kỹ thuật số rộng đang trình chiếu thông tin về một lễ trao giải hoặc tổng kết cuộc thi. Màn hình được chiếu sáng rực rỡ với gam màu xanh chủ đạo, làm nổi bật các nội dung văn bản và hình ảnh. Không khí của khung cảnh mang tính trang trọng và chính thức, phản ánh một sự kiện quan trọng và có tổ chức.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "Màn hình kỹ thuật số",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "chiếm gần như toàn bộ khung hình",
+                        "pos3d": "ở phía trước"
+                    },
+                    "attr": {
+                        "vis": "Hình chữ nhật lớn, hiển thị màu xanh lam chủ đạo với các văn bản và logo màu trắng, vàng, đỏ; bề mặt phẳng, sáng rõ.",
+                        "func": "Hiển thị thông tin chính thức về sự kiện, các đơn vị tổ chức, tài trợ, giải thưởng và hình ảnh của các cá nhân liên quan; dùng để trình chiếu nội dung đa phương tiện."
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": "Trần Hiếu Tài",
+                        "label": "Người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái của màn hình",
+                        "pos3d": "trên màn hình, gần người xem"
+                    },
+                    "attr": {
+                        "clothing": "Không rõ trang phục cụ thể, chỉ là ảnh chân dung trong khung tròn",
+                        "vis": "Nam giới, trẻ tuổi (ước tính khoảng 20-30 tuổi), tóc ngắn, gương mặt có vẻ nghiêm túc hoặc tập trung.",
+                        "role": "Thành viên đội thi đạt giải"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": "Nguyễn Minh Hiếu",
+                        "label": "Người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở gần giữa phía dưới bên trái màn hình, bên cạnh Trần Hiếu Tài",
+                        "pos3d": "trên màn hình, gần người xem"
+                    },
+                    "attr": {
+                        "clothing": "Không rõ trang phục cụ thể, chỉ là ảnh chân dung trong khung tròn",
+                        "vis": "Nam giới, trẻ tuổi (ước tính khoảng 20-30 tuổi), tóc ngắn, gương mặt có vẻ nghiêm túc hoặc tập trung.",
+                        "role": "Thành viên đội thi đạt giải"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": "Nguyễn Công Hải Nam",
+                        "label": "Người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở gần giữa phía dưới bên phải màn hình, bên cạnh Nguyễn Minh Hiếu",
+                        "pos3d": "trên màn hình, gần người xem"
+                    },
+                    "attr": {
+                        "clothing": "Không rõ trang phục cụ thể, chỉ là ảnh chân dung trong khung tròn",
+                        "vis": "Nam giới, trẻ tuổi (ước tính khoảng 20-30 tuổi), tóc ngắn, gương mặt có vẻ nghiêm túc hoặc tập trung.",
+                        "role": "Thành viên đội thi đạt giải"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": "Dương Quang Minh",
+                        "label": "Người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên phải màn hình, bên cạnh Nguyễn Công Hải Nam",
+                        "pos3d": "trên màn hình, gần người xem"
+                    },
+                    "attr": {
+                        "clothing": "Không rõ trang phục cụ thể, chỉ là ảnh chân dung trong khung tròn",
+                        "vis": "Nam giới, trẻ tuổi (ước tính khoảng 20-30 tuổi), tóc ngắn, gương mặt có vẻ nghiêm túc hoặc tập trung.",
+                        "role": "Thành viên đội thi đạt giải"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": null,
+                        "brand": "VNISA"
+                    },
+                    "pos": {
+                        "pos2d": "ở góc trên bên trái màn hình",
+                        "pos3d": "trên màn hình"
+                    },
+                    "attr": {
+                        "vis": "Logo hình tròn màu đỏ và xanh đậm, có chữ 'VNISA' cách điệu ở giữa.",
+                        "func": "Biểu tượng nhận diện của Hiệp hội An toàn thông tin Việt Nam, đơn vị tổ chức sự kiện."
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": {
+                        "name": null,
+                        "label": null,
+                        "brand": "viettel"
+                    },
+                    "pos": {
+                        "pos2d": "ở phía dưới bên trái màn hình",
+                        "pos3d": "trên màn hình"
+                    },
+                    "attr": {
+                        "vis": "Logo chữ 'viettel' màu đỏ trên nền trắng, nổi bật.",
+                        "func": "Biểu tượng nhận diện của nhà tài trợ chính của sự kiện."
+                    }
+                },
+                {
+                    "id_": "E8",
+                    "iden": {
+                        "name": null,
+                        "label": null,
+                        "brand": "PTIT"
+                    },
+                    "pos": {
+                        "pos2d": "ở phía dưới bên phải màn hình",
+                        "pos3d": "trên màn hình"
+                    },
+                    "attr": {
+                        "vis": "Logo hình tròn với chữ 'PTIT' cách điệu bên trong, có màu đỏ và trắng.",
+                        "func": "Biểu tượng nhận diện của Học viện Công nghệ Bưu chính Viễn thông, đơn vị đồng tổ chức."
+                    }
+                },
+                {
+                    "id_": "E9",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía dưới màn hình, trải dài theo chiều ngang",
+                        "pos3d": "trên màn hình"
+                    },
+                    "attr": {
+                        "vis": "Các logo nhỏ hơn của các đơn vị tài trợ khác nhau như 'napas', 'NCTN@M', 'THÔNG TIN TRUYỀN THÔNG', 'MATBAO', 'viettel security'. Các logo này có nhiều màu sắc và hình dạng khác nhau.",
+                        "func": "Biểu tượng nhận diện của các đơn vị đồng tài trợ cho cuộc thi, thể hiện sự hỗ trợ tài chính và hợp tác."
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị ảnh chân dung của Trần Hiếu Tài."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E3",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị ảnh chân dung của Nguyễn Minh Hiếu."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E4",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị ảnh chân dung của Nguyễn Công Hải Nam."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E5",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị ảnh chân dung của Dương Quang Minh."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E6",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị logo và tên của VNISA."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E7",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị logo và tên của Viettel."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E8",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị logo của PTIT."
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E9",
+                    "type_rel": "hiển thị",
+                    "des": "Màn hình kỹ thuật số hiển thị các logo của các đơn vị đồng tài trợ."
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "Trần Hiếu Tài được đặt bên trái Nguyễn Minh Hiếu trên màn hình."
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "Nguyễn Minh Hiếu được đặt bên trái Nguyễn Công Hải Nam trên màn hình."
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "Nguyễn Công Hải Nam được đặt bên trái Dương Quang Minh trên màn hình."
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023",
+                    "des": "Tên chính thức của cuộc thi."
+                },
+                {
+                    "content": "Hosted by: MINISTRY OF EDUCATION AND TRAINING - MINISTRY OF INFORMATION AND COMMUNICATIONS",
+                    "des": "Các Bộ chịu trách nhiệm tổ chức sự kiện."
+                },
+                {
+                    "content": "VNISA",
+                    "des": "Tên viết tắt của Hiệp hội An toàn thông tin Việt Nam."
+                },
+                {
+                    "content": "HIỆP HỘI AN TOÀN THÔNG TIN VIỆT NAM",
+                    "des": "Tên đầy đủ của Hiệp hội."
+                },
+                {
+                    "content": "VIETNAM INFORMATION SECURITY ASSOCIATION",
+                    "des": "Tên tiếng Anh của Hiệp hội."
+                },
+                {
+                    "content": "Đơn vị tổ chức | Organized by",
+                    "des": "Tiêu đề cho phần đơn vị tổ chức."
+                },
+                {
+                    "content": "CỤC CÔNG NGHỆ THÔNG TIN - BỘ GDĐT",
+                    "des": "Tên một trong các đơn vị tổ chức."
+                },
+                {
+                    "content": "ICT DEPARTMENT",
+                    "des": "Tên tiếng Anh của Cục Công nghệ Thông tin."
+                },
+                {
+                    "content": "CỤC AN TOÀN THÔNG TIN, VỤ HỢP TÁC QUỐC TẾ - BỘ TT&TT",
+                    "des": "Tên một trong các đơn vị tổ chức khác."
+                },
+                {
+                    "content": "AUTHORITY OF INFORMATION SECURITY, DEPT. OF INTERNATIONAL COOPERATION",
+                    "des": "Tên tiếng Anh của Cục An toàn thông tin và Vụ Hợp tác Quốc tế."
+                },
+                {
+                    "content": "Jeopardy",
+                    "des": "Tên định dạng hoặc phần thi của cuộc thi."
+                },
+                {
+                    "content": "GIẢI NHÌ",
+                    "des": "Giải thưởng đang được công bố trên màn hình."
+                },
+                {
+                    "content": "Hà Nội, ngày 28/10/2023",
+                    "des": "Địa điểm và thời gian diễn ra sự kiện."
+                },
+                {
+                    "content": "Trần Hiếu Tài",
+                    "des": "Tên của một cá nhân trong ảnh chân dung."
+                },
+                {
+                    "content": "Nguyễn Minh Hiếu",
+                    "des": "Tên của một cá nhân trong ảnh chân dung."
+                },
+                {
+                    "content": "Nguyễn Công Hải Nam",
+                    "des": "Tên của một cá nhân trong ảnh chân dung."
+                },
+                {
+                    "content": "Dương Quang Minh",
+                    "des": "Tên của một cá nhân trong ảnh chân dung."
+                },
+                {
+                    "content": "Tài trợ chính | Principal sponsor",
+                    "des": "Tiêu đề cho phần nhà tài trợ chính."
+                },
+                {
+                    "content": "viettel",
+                    "des": "Tên nhà tài trợ chính."
+                },
+                {
+                    "content": "Đơn vị đồng cai",
+                    "des": "Tiêu đề cho phần đơn vị đồng tổ chức."
+                },
+                {
+                    "content": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
+                    "des": "Tên một đơn vị đồng tổ chức."
+                },
+                {
+                    "content": "Đồng tài trợ | Co-sponsors",
+                    "des": "Tiêu đề cho phần các nhà đồng tài trợ."
+                },
+                {
+                    "content": "napas",
+                    "des": "Tên một nhà đồng tài trợ."
+                },
+                {
+                    "content": "NCTN@M",
+                    "des": "Tên một nhà đồng tài trợ."
+                },
+                {
+                    "content": "THÔNG TIN TRUYỀN THÔNG",
+                    "des": "Tên một nhà đồng tài trợ."
+                },
+                {
+                    "content": "MATBAO",
+                    "des": "Tên một nhà đồng tài trợ."
+                },
+                {
+                    "content": "viettel security",
+                    "des": "Tên một nhà đồng tài trợ."
+                },
+                {
+                    "content": "MSEC_HUNT",
+                    "des": "Tên một đội hoặc dự án liên quan đến sự kiện."
+                },
+                {
+                    "content": "Học viện Kỹ thuật Quân sự",
+                    "des": "Tên một học viện quân sự có thể liên quan đến sự kiện."
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1467",
+            "visual_caption": "Một cái nhìn toàn cảnh từ phía sau khán phòng hướng về sân khấu rộng lớn, nơi đang diễn ra một lễ trao giải hoành tráng với hiệu ứng pháo hoa lấp lánh ở hai bên. Trên sân khấu, một màn hình lớn đang hiển thị phông nền sự kiện với dòng chữ \"GIẢI NHẤT\" và tên cuộc thi \"CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023\", cùng với ngày diễn ra \"Hà Nội, ngày 28/10/2023\", tương tự như khung hình trước đó. Nhóm người nhận giải và người trao giải đang đứng trên sân khấu, nhưng bị che khuất một phần bởi ánh sáng và khói từ pháo hoa bắn ra, tạo nên một khoảnh khắc ấn tượng và đầy cảm xúc. Phía dưới sân khấu, khán giả ngồi kín các hàng ghế màu đỏ, một phần lớn trong số họ đang giơ điện thoại lên cao để ghi lại khoảnh khắc đáng nhớ này, thể hiện sự quan tâm và hào hứng của những người tham dự. Hai bên sân khấu là những tấm banner dọc màu trắng lớn, góp phần tăng thêm vẻ trang trọng cho không gian sự kiện. Tổng thể khung cảnh cho thấy một buổi lễ trao giải sôi động, được tổ chức quy mô và thu hút đông đảo người tham dự.",
+            "image_path": "../sample/event_0/00001467.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0001",
+            "sce_des": "Buổi lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASEAN 2023 đang diễn ra trên sân khấu lớn trong một khán phòng. Sân khấu được trang trí bởi màn hình LED hiển thị thông tin cuộc thi, pháo sáng rực rỡ và có sự hiện diện của ban tổ chức cùng đội thi đạt giải, trong khi khán giả đang theo dõi và ghi hình.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "thành viên đội đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm sân khấu, phía trái của nhóm sinh viên",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo polo sẫm màu",
+                        "vis": "nam, trẻ tuổi (khoảng 19-22 tuổi), tóc ngắn",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "thành viên đội đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm sân khấu, cạnh E1",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo polo sẫm màu, đeo kính",
+                        "vis": "nam, trẻ tuổi (khoảng 19-22 tuổi), tóc ngắn",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "thành viên đội đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm sân khấu, cạnh E2",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo polo sẫm màu",
+                        "vis": "nam, trẻ tuổi (khoảng 19-22 tuổi), tóc ngắn",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "thành viên đội đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm sân khấu, cạnh E3",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo polo sẫm màu",
+                        "vis": "nam, trẻ tuổi (khoảng 19-22 tuổi), tóc ngắn",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "thành viên đội đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm sân khấu, phía phải của nhóm sinh viên",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo polo sẫm màu",
+                        "vis": "nam, trẻ tuổi (khoảng 19-22 tuổi), tóc ngắn",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": "người trao giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía phải trung tâm sân khấu, cạnh nhóm sinh viên",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi sáng màu, quần tây sẫm màu",
+                        "vis": "nam, khoảng 50-60 tuổi, tóc ngắn, đeo kính, đang cười",
+                        "role": "đại diện ban tổ chức hoặc người trao giải"
+                    }
+                },
+                {
+                    "id_": "GroupH1",
+                    "iden": {
+                        "name": null,
+                        "label": "khán giả",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía dưới trung tâm khung hình, chiếm phần lớn không gian phía trước sân khấu",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "role": "khán giả, người tham dự",
+                        "clothing": "trang phục đa dạng, chủ yếu màu tối",
+                        "vis": "độ tuổi và giới tính đa dạng",
+                        "des": "ngồi thành từng hàng ghế, nhiều người giơ điện thoại để quay phim/chụp ảnh",
+                        "amount": "hơn 50 người"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": {
+                        "name": null,
+                        "label": "màn hình LED",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía sau trung tâm sân khấu, chiếm gần hết chiều rộng",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật lớn, màu xanh lam rực rỡ, hiển thị chữ trắng và các logo",
+                        "func": "hiển thị thông tin sự kiện, logo của đơn vị tổ chức và nhà tài trợ"
+                    }
+                },
+                {
+                    "id_": "O2",
+                    "iden": {
+                        "name": null,
+                        "label": "pháo sáng sân khấu",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên sân khấu, phía trái trung tâm",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "vis": "tạo ra những tia lửa vàng rực và khói trắng",
+                        "func": "tạo hiệu ứng đặc biệt, chúc mừng, trang trí sân khấu"
+                    }
+                },
+                {
+                    "id_": "O3",
+                    "iden": {
+                        "name": null,
+                        "label": "pháo sáng sân khấu",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên sân khấu, phía phải trung tâm",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "vis": "tạo ra những tia lửa vàng rực và khói trắng",
+                        "func": "tạo hiệu ứng đặc biệt, chúc mừng, trang trí sân khấu"
+                    }
+                },
+                {
+                    "id_": "O4",
+                    "iden": {
+                        "name": null,
+                        "label": "bục phát biểu",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía phải sân khấu",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "vis": "bằng gỗ màu nâu đậm, hình dáng chắc chắn, có logo nhỏ phía trước",
+                        "func": "nơi người phát biểu đứng, đặt tài liệu"
+                    }
+                },
+                {
+                    "id_": "O5",
+                    "iden": {
+                        "name": null,
+                        "label": "banner thông tin",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía trái sân khấu",
+                        "pos3d": "trung tâm"
+                    },
+                    "attr": {
+                        "vis": "dạng standee cao, màu trắng với thông tin và logo sự kiện được in màu xanh và đỏ",
+                        "func": "hiển thị thông tin sự kiện và nhà tài trợ"
+                    }
+                },
+                {
+                    "id_": "O6",
+                    "iden": {
+                        "name": null,
+                        "label": "biểu tượng búa liềm",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên rèm đỏ phía trái sân khấu",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "màu vàng kim loại, biểu tượng búa liềm đặc trưng",
+                        "func": "biểu tượng chính trị, đại diện cho Đảng Cộng sản Việt Nam"
+                    }
+                },
+                {
+                    "id_": "O7",
+                    "iden": {
+                        "name": null,
+                        "label": "giấy chứng nhận",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên tay E1 và E2",
+                        "pos3d": "gần"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật, màu sáng (trắng/kem), có chữ in",
+                        "func": "vật phẩm trao giải, công nhận thành tích"
+                    }
+                },
+                {
+                    "id_": "O8",
+                    "iden": {
+                        "name": null,
+                        "label": "bó hoa",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên tay E3",
+                        "pos3d": "gần"
+                    },
+                    "attr": {
+                        "vis": "nhiều bông hoa màu đỏ/hồng với lá xanh, được bó gọn gàng",
+                        "func": "quà tặng chúc mừng, biểu tượng của sự vinh danh"
+                    }
+                },
+                {
+                    "id_": "GroupO1",
+                    "iden": {
+                        "name": null,
+                        "label": "điện thoại di động",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên tay GroupH1",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "nhiều thiết bị điện tử cầm tay, kích thước nhỏ, màn hình sáng",
+                        "func": "ghi hình, chụp ảnh sự kiện",
+                        "des": "đang được sử dụng bởi khán giả để ghi lại cảnh tượng trên sân khấu",
+                        "amount": "nhiều chiếc (hơn 10)"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "O7",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O7",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O8",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang đứng cạnh và chúc mừng"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "đang đứng cạnh và chúc mừng"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E3",
+                    "type_rel": "hành động",
+                    "des": "đang đứng cạnh và chúc mừng"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E4",
+                    "type_rel": "hành động",
+                    "des": "đang đứng cạnh và chúc mừng"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E5",
+                    "type_rel": "hành động",
+                    "des": "đang đứng cạnh và chúc mừng"
+                },
+                {
+                    "subj": "O2",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "đang phun tia lửa gần"
+                },
+                {
+                    "subj": "O3",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "đang phun tia lửa gần"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đứng trước"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đứng trước"
+                },
+                {
+                    "subj": "O4",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đặt bên phải"
+                },
+                {
+                    "subj": "O5",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đặt bên trái"
+                },
+                {
+                    "subj": "GroupH1",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang theo dõi"
+                },
+                {
+                    "subj": "GroupH1",
+                    "obj": "GroupO1",
+                    "type_rel": "hành động",
+                    "des": "đang sử dụng"
+                },
+                {
+                    "subj": "GroupO1",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang ghi hình"
+                },
+                {
+                    "subj": "O6",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "treo cạnh bên trái"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "GIẢI NHẤT",
+                    "des": "Tên giải thưởng chính"
+                },
+                {
+                    "content": "Jeopardy",
+                    "des": "Tên thể loại hoặc hạng mục thi"
+                },
+                {
+                    "content": "QUỐC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023",
+                    "des": "Tên đầy đủ của cuộc thi được tổ chức"
+                },
+                {
+                    "content": "ASEAN STUDENT CONTEST ON INFORMATION SECURITY 2023",
+                    "des": "Tên tiếng Anh của cuộc thi"
+                },
+                {
+                    "content": "Hà Nội, ngày 28/10/2023",
+                    "des": "Địa điểm và ngày diễn ra sự kiện"
+                },
+                {
+                    "content": "VNISA",
+                    "des": "Logo của Hiệp hội An toàn thông tin Việt Nam"
+                },
+                {
+                    "content": "Bộ Giáo dục và Đào tạo",
+                    "des": "Tên đơn vị đồng tổ chức"
+                },
+                {
+                    "content": "Bộ Thông tin và Truyền thông",
+                    "des": "Tên đơn vị đồng tổ chức"
+                },
+                {
+                    "content": "Viettel",
+                    "des": "Logo của nhà tài trợ"
+                },
+                {
+                    "content": "Học viện Kỹ thuật Mật mã",
+                    "des": "Tên đơn vị của đội đạt giải nhất"
+                },
+                {
+                    "content": "PTA",
+                    "des": "Logo trên bục phát biểu, liên quan đến Học viện Kỹ thuật Mật mã"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1626",
+            "visual_caption": "Trên sân khấu với phông nền xanh dịu mắt, một khoảnh khắc trao giải nhì đang diễn ra với sự góp mặt của ba người đàn ông. Ở phía bên trái, một người đàn ông mặc bộ vest tối màu, quay lưng lại phía ống kính, đang nâng một tấm bảng giải thưởng màu trắng lên, có dòng chữ \"GIẢI NHÌ\". Người đàn ông ở giữa, một thanh niên trẻ tuổi, đeo kính và mặc chiếc áo phông đen đơn giản nhưng lịch sự, đang mỉm cười và đón nhận tấm bảng. Gương mặt anh thể hiện sự vui mừng và tự hào khi cầm trên tay phần thưởng này. Ở phía bên phải khung hình, một người đàn ông lớn tuổi hơn, đầu hói và mặc sơ mi trắng, đang nhìn về phía người nhận giải với ánh mắt thân thiện, cho thấy vai trò của một người trao giải hoặc đại diện ban tổ chức. Ba người đang tương tác trực tiếp trong một không gian trang trọng, với ánh sáng tập trung vào khu vực trung tâm sân khấu. Tấm bảng giải thưởng là điểm nhấn chính, thu hút sự chú ý vào thành tích của người chiến thắng. Khoảnh khắc này ghi lại sự tôn vinh xứng đáng cho những nỗ lực đã bỏ ra.",
+            "image_path": "../sample/event_0/00001626.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0001",
+            "sce_des": "Bối cảnh là một buổi lễ trao giải trang trọng diễn ra trên sân khấu hoặc trong một hội trường lớn, được chiếu sáng bằng đèn studio tạo không khí chuyên nghiệp. Phông nền sân khấu là một màu xanh dương tươi sáng với các đường kẻ lưới chìm, tạo hiệu ứng kỹ thuật số, rất phù hợp với chủ đề an toàn thông tin của sự kiện. Phía trên bên trái của phông nền có thể thấy mờ các biểu ngữ của nhà tài trợ và tổ chức, bao gồm dòng chữ \"Co-sponsors\" cùng logo \"NFTN@\" và một biểu tượng khác có chữ \"AFISA\", ám chỉ Hiệp hội An toàn thông tin Việt Nam, đơn vị đồng tổ chức cuộc thi. Sự kiện đang diễn ra là lễ tổng kết và trao giải cuộc thi sinh viên với an toàn thông tin ASIAN 2023, nơi các cá nhân và đội thi xuất sắc được vinh danh.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái, quay lưng về phía người xem",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo vest đen lịch sự",
+                        "vis": "nam giới, tóc ngắn, dáng người trung bình",
+                        "role": "người trao giải hoặc đại diện ban tổ chức"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trung tâm bên trái, đối diện E1",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo vest đen",
+                        "vis": "nam giới, phần lớn cơ thể bị E1 che khuất",
+                        "role": "người nhận giải"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, hơi chếch về bên phải",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo phông cổ tròn màu đen đơn giản",
+                        "vis": "nam giới, khoảng U20, đeo kính cận gọng đen, tóc ngắn, khuôn mặt tươi cười",
+                        "role": "sinh viên đạt giải nhì"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở rìa phải khung hình, quay lưng về phía người xem",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng, quần tối màu",
+                        "vis": "nam giới, dáng người cao, tóc đen ngắn",
+                        "role": "thành viên ban tổ chức hoặc giám khảo"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa, trong tay E3",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "vis": "tấm bảng hình chữ nhật màu trắng, kích thước khoảng A3, có logo hình tròn với chữ 'AFISA' ở góc trên bên trái, cùng dòng chữ in rõ 'GIẢI NHÌ' và 'Jeopardy' bên dưới",
+                        "func": "giấy chứng nhận hoặc bằng khen trao cho người đạt giải nhì"
+                    }
+                },
+                {
+                    "id_": "O2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở bên trái, giữa E1 và E2",
+                        "pos3d": "phía trước"
+                    },
+                    "attr": {
+                        "vis": "một tấm bảng hoặc giấy tờ màu trắng, tương tự O1, nhưng bị che khuất và mờ ảo, không rõ nội dung",
+                        "func": "vật phẩm trao giải hoặc tài liệu liên quan đến buổi lễ"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "E1 đang thực hiện hành động trao đổi, có thể là bắt tay hoặc trao O2 cho E2"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O1",
+                    "type_rel": "hành động",
+                    "des": "E3 đang cầm O1, thể hiện việc nhận giải"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "E4 đang đứng cạnh E3, quan sát hoặc chuẩn bị cho phần tiếp theo của buổi lễ"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "E3 đang nhìn về phía E1 và E2, nơi diễn ra một hoạt động trao đổi"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "Co-sponsors",
+                    "des": "Tiêu đề chỉ các nhà đồng tài trợ"
+                },
+                {
+                    "content": "NFTN@",
+                    "des": "Tên một nhà tài trợ hoặc tổ chức liên quan"
+                },
+                {
+                    "content": "AFISA",
+                    "des": "Tên viết tắt của Hiệp hội An toàn thông tin Việt Nam, đơn vị tổ chức cuộc thi"
+                },
+                {
+                    "content": "GIẢI NHÌ",
+                    "des": "Nội dung giải thưởng trên bảng trao giải"
+                },
+                {
+                    "content": "Jeopardy",
+                    "des": "Một phần của tên giải thưởng hoặc nội dung thi đấu trên bảng trao giải"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1709",
+            "visual_caption": "Sân khấu được chiếu sáng rực rỡ tiếp tục là nơi diễn ra lễ trao giải, với một nhóm năm người đàn ông đang đứng trước phông nền xanh. Ở phía bên trái, một người đàn ông mặc bộ vest đen lịch lãm, dáng vẻ nghiêm túc, đóng vai trò của người trao giải. Ngay cạnh ông là ba thanh niên trẻ tuổi, tất cả đều mặc áo sơ mi tối màu, đứng thẳng và có vẻ đang nhận giải. Hai trong số họ đang cầm trên tay những tấm bảng giải thưởng màu trắng, biểu thị thành tích đã đạt được. Chàng trai ở giữa đang nhìn về phía người trao giải, trong khi hai người còn lại hơi quay mặt về phía trước. Ở phía xa bên phải, một người đàn ông khác mặc sơ mi trắng, trông có vẻ là một thành viên ban tổ chức hoặc người đại diện, đang đứng thẳng và quan sát toàn cảnh. Ánh sáng sân khấu tập trung vào nhóm người này, làm nổi bật khoảnh khắc trao giải. Không khí chung của sân khấu là sự trang trọng và chuyên nghiệp, phản ánh tầm quan trọng của sự kiện. Các tấm bảng giải thưởng màu trắng tương phản rõ rệt với trang phục tối màu của các thanh niên, nhấn mạnh phần thưởng mà họ đã nhận được.",
+            "image_path": "../sample/event_0/00001709.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_keyframe_1",
+            "sce_des": "Buổi lễ trao giải cuộc thi an toàn thông tin được tổ chức trên một sân khấu với phông nền kỹ thuật số màu xanh dương, có sự tham gia của các nhà tổ chức và đội thi đạt giải Nhì, cùng với đông đảo khán giả đang ghi lại khoảnh khắc.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "người tổ chức",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở bên trái sân khấu, phía sau người nhận giải",
+                        "pos3d": "ở giữa khung hình"
+                    },
+                    "attr": {
+                        "clothing": "áo vest đen, áo sơ mi trắng, cà vạt sẫm màu, đeo kính",
+                        "vis": "nam, khoảng 40 tuổi, tóc ngắn",
+                        "role": "người trao giải"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở trung tâm sân khấu, bên trái người đạt giải khác",
+                        "pos3d": "ở giữa khung hình"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen có họa tiết, quần dài đen, giày thể thao trắng",
+                        "vis": "nam, khoảng 20 tuổi, tóc ngắn",
+                        "role": "thành viên đội đạt giải nhì"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên đạt giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở trung tâm sân khấu, bên phải người đạt giải khác",
+                        "pos3d": "ở giữa khung hình"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen, quần dài đen, giày đen, đeo kính",
+                        "vis": "nam, khoảng 20 tuổi, tóc ngắn",
+                        "role": "thành viên đội đạt giải nhì"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "người tổ chức",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở bên phải sân khấu, phía sau người nhận giải",
+                        "pos3d": "ở giữa khung hình"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng tay dài, quần dài đen, đeo kính",
+                        "vis": "nam, khoảng 50 tuổi, tóc ngắn",
+                        "role": "người trao giải/quan chức"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "bằng khen",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trước ngực người E2",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật, màu trắng với dải màu xanh lam ở dưới, có chữ 'GIẢI NHÌ'",
+                        "func": "vật phẩm để trao giải, biểu tượng cho thành tích"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": "bằng khen",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trước ngực người E3",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật, màu trắng với dải màu xanh lam ở dưới, có chữ 'GIẢI NHÌ'",
+                        "func": "vật phẩm để trao giải, biểu tượng cho thành tích"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở phía dưới cùng của khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "role": null,
+                        "clothing": null,
+                        "vis": null,
+                        "des": "đứng và ngồi phía dưới sân khấu, tập trung nhìn lên sân khấu, nhiều người đang giơ điện thoại hoặc máy ảnh để chụp hình",
+                        "amount": "hơn 5 người"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "đứng cạnh và vỗ tay chúc mừng"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E3",
+                    "type_rel": "hành động",
+                    "des": "đứng cạnh và vỗ tay chúc mừng"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E5",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E6",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "đứng/ngồi ở phía trước, dưới sân khấu"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đứng/ngồi ở phía trước, dưới sân khấu"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đứng/ngồi ở phía trước, dưới sân khấu"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "đứng/ngồi ở phía trước, dưới sân khấu"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "viettel",
+                    "des": "Logo nhà tài trợ"
+                },
+                {
+                    "content": "napas",
+                    "des": "Logo nhà tài trợ"
+                },
+                {
+                    "content": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
+                    "des": "Tên đơn vị tổ chức/đơn vị chủ trì"
+                },
+                {
+                    "content": "PTIT",
+                    "des": "Viết tắt của Học viện Công nghệ Bưu chính Viễn thông"
+                },
+                {
+                    "content": "GIẢI NHÌ",
+                    "des": "Hạng mục giải thưởng trên bằng khen"
+                },
+                {
+                    "content": "VNPT",
+                    "des": "Logo nhà tài trợ"
+                },
+                {
+                    "content": "MATBA",
+                    "des": "Logo nhà tài trợ"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1844",
+            "visual_caption": "Một khoảnh khắc ý nghĩa của buổi lễ trao giải được ghi lại trên sân khấu với phông nền màu xanh sáng. Hai người đàn ông lớn tuổi hơn, đóng vai trò người trao giải, đang đứng ở hai bên của khung hình, tạo thành một bố cục đối xứng. Người đàn ông bên trái mặc một bộ vest màu xám, còn người đàn ông bên phải mặc bộ vest tối màu. Ở giữa họ là hai thanh niên trẻ tuổi, cả hai đều mặc áo polo màu xanh đậm giống nhau, biểu thị họ là thành viên của cùng một đội hoặc thuộc cùng một nhóm người nhận giải. Mỗi chàng trai đang cầm trên tay một tấm bảng giải thưởng màu trắng, trên đó có ghi rõ ràng dòng chữ \"GIẢI BA\", xác nhận hạng mục giải mà họ đã đạt được. Các thanh niên có vẻ mặt tự hào và vui mừng khi nhận phần thưởng. Ánh sáng tập trung chiếu vào khu vực trao giải, làm nổi bật những người trên sân khấu. Bố cục này cho thấy sự công nhận chính thức đối với thành tích của các thí sinh, với không khí trang trọng nhưng vẫn thân thiện giữa người trao và người nhận giải. Sự kiện tiếp tục vinh danh những tài năng trẻ trong lĩnh vực an toàn thông tin.",
+            "image_path": "../sample/event_0/00001844.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_001",
+            "sce_des": "Buổi lễ tổng kết và trao giải cho cuộc thi \"Sinh viên với An toàn Thông tin ASIAN năm 2023\" đang diễn ra trên một sân khấu được chiếu sáng rực rỡ với phông nền màu xanh dương năng động.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "người trao giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái của khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo vest màu xám nhạt, áo sơ mi trắng, và đeo kính",
+                        "vis": "nam giới, khoảng 40-50 tuổi, tóc ngắn gọn gàng",
+                        "role": "người tổ chức hoặc ban giám khảo"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, hơi chếch về bên trái",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo khoác đen với phần tay áo trắng, áo thun tối màu bên trong, và quần jean màu xanh nhạt",
+                        "vis": "nam giới, khoảng 20-25 tuổi, tóc ngắn, đang cười tươi",
+                        "role": "sinh viên đạt giải"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "người nhận giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, hơi chếch về bên phải",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo thun đen và quần tối màu",
+                        "vis": "nam giới, khoảng 20-25 tuổi, tóc đen ngắn, đang cười",
+                        "role": "sinh viên đạt giải"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "người trao giải",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên phải của khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "bộ vest màu xanh đậm, áo sơ mi trắng và cà vạt chấm bi",
+                        "vis": "nam giới, khoảng 40-50 tuổi, tóc đen cắt ngắn",
+                        "role": "người tổ chức hoặc ban giám khảo"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "bằng khen",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, giữa E1 và E2",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật, màu trắng, có viền màu xanh nhạt ở cạnh dưới",
+                        "func": "vật phẩm được trao tặng để công nhận thành tích"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": "bằng khen",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, trước E3",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật, màu trắng, có chữ \"GIẢI BA\" và \"Jeopardy\" in rõ nét",
+                        "func": "vật phẩm được trao tặng để công nhận thành tích"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "toàn bộ phía sau",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "màu xanh dương chủ đạo, có các đường kẻ và hình học màu sáng hơn tạo hiệu ứng công nghệ",
+                        "func": "làm nền sân khấu cho sự kiện"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "đang trao giải thưởng cho"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E5",
+                    "type_rel": "hành động",
+                    "des": "đang nhận từ"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E6",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đứng cạnh"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đứng đối diện với"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "làm phông nền cho"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "làm phông nền cho"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "làm phông nền cho"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "làm phông nền cho"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "GIẢI BA",
+                    "des": "chỉ hạng mục giải thưởng"
+                },
+                {
+                    "content": "Jeopardy",
+                    "des": "tên riêng của giải thưởng hoặc cuộc thi"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2068",
+            "visual_caption": "Trong một góc của khán phòng, ba thanh niên trẻ tuổi đang ngồi trên ghế màu đỏ, thể hiện sự tập trung cao độ vào sự kiện đang diễn ra. Chàng trai ở phía bên trái khung hình mặc một chiếc áo phông đen đơn giản, ánh mắt anh hướng thẳng về phía trước, dường như đang theo dõi sát sao phần trình bày trên sân khấu. Ở vị trí trung tâm, một chàng trai khác cũng mặc áo phông đen, đeo kính cận, đang chống cằm một cách suy tư, ánh mắt anh cũng hướng về phía trước, biểu lộ sự suy nghĩ hoặc chăm chú lắng nghe. Người thứ ba, ở phía bên phải, cũng mặc áo phông đen và đeo kính, đang nhìn thẳng về phía sân khấu, với vẻ mặt nghiêm túc và tập trung. Ba chàng trai đều có kiểu tóc ngắn gọn gàng, phản ánh sự năng động và chuyên nghiệp của những người trẻ trong lĩnh vực công nghệ. Tư thế ngồi của họ cho thấy sự thoải mái nhưng vẫn giữ được sự chú ý vào nội dung chương trình. Ánh sáng từ sân khấu chiếu nhẹ vào khu vực này, làm nổi bật vẻ mặt tập trung của họ.",
+            "image_path": "../sample/event_0/00002068.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_1",
+            "sce_des": "Một buổi lễ tổng kết và trao giải cuộc thi an toàn thông tin đang diễn ra trong hội trường lớn, với các sinh viên chăm chú theo dõi sự kiện.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen, đeo thẻ đeo cổ màu tối",
+                        "vis": "nam, trẻ tuổi, tóc ngắn màu đen, gương mặt tập trung nghiêm túc",
+                        "role": "người tham dự cuộc thi"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, chếch sang phải E1",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen, đeo thẻ đeo cổ màu tối, đeo kính gọng đen",
+                        "vis": "nam, trẻ tuổi, tóc ngắn màu đen, gương mặt tập trung, tay chống cằm",
+                        "role": "người tham dự cuộc thi"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở phía trên bên phải của E2",
+                        "pos3d": "phía sau E2"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen",
+                        "vis": "nam, trẻ tuổi, tóc ngắn màu đen, gương mặt tập trung",
+                        "role": "người tham dự cuộc thi"
+                    }
+                },
+                {
+                    "id_": "G1",
+                    "iden": {
+                        "name": null,
+                        "label": "nhóm sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía sau và xung quanh các thực thể E1, E2, E3",
+                        "pos3d": "xa hơn phía sau"
+                    },
+                    "attr": {
+                        "role": "khán giả/người tham dự",
+                        "clothing": "áo phông đen đồng phục, đeo thẻ đeo cổ màu tối",
+                        "vis": "chủ yếu là nam giới trẻ tuổi",
+                        "des": "ngồi thành hàng trong hội trường, đang chăm chú lắng nghe",
+                        "amount": "nhiều người, khoảng hơn 10 người được nhìn thấy rõ"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": {
+                        "name": null,
+                        "label": "ghế ngồi",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "rải rác khắp khung hình, nơi các sinh viên đang ngồi",
+                        "pos3d": "trải dài từ gần đến xa"
+                    },
+                    "attr": {
+                        "vis": "màu đỏ tươi, có đệm lưng và đệm ngồi, khung kim loại màu đen",
+                        "func": "dùng để ngồi cho khán giả/người tham dự"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "ngồi cạnh"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "ngồi phía trước"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "G1",
+                    "type_rel": "thuộc về",
+                    "des": "là một phần của nhóm"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "G1",
+                    "type_rel": "thuộc về",
+                    "des": "là một phần của nhóm"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "G1",
+                    "type_rel": "thuộc về",
+                    "des": "là một phần của nhóm"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "O1",
+                    "type_rel": "tương tác",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O1",
+                    "type_rel": "tương tác",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O1",
+                    "type_rel": "tương tác",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "G1",
+                    "obj": "O1",
+                    "type_rel": "tương tác",
+                    "des": "đang ngồi trên các"
+                }
+            ],
+            "ocr": null
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "1986",
+            "visual_caption": "Khán phòng rộng lớn được lấp đầy bởi hàng ghế màu đỏ, và trong khung hình này, tập trung vào một nhóm đông đảo các thanh niên đang ngồi. Hầu hết họ đều mặc áo phông hoặc áo polo tối màu, tạo nên một sự đồng bộ nhất định. Các thanh niên này có độ tuổi ước tính khoảng từ 20 đến 30, thể hiện sự trẻ trung và năng động của những người tham gia cuộc thi hoặc khán giả. Nhiều người trong số họ đang chăm chú nhìn về phía sân khấu, ánh mắt tập trung vào diễn biến của buổi lễ. Tuy nhiên, một số khác lại đang bận rộn với điện thoại của mình, có thể là để ghi lại hình ảnh, cập nhật thông tin, hoặc kiểm tra các tin nhắn. Không khí trong khán phòng có vẻ nghiêm túc nhưng vẫn có sự giao tiếp cá nhân. Các hàng ghế được bố trí gọn gàng, tạo không gian thoải mái cho người ngồi. Sự hiện diện đông đảo của những người trẻ tuổi cho thấy sức hút của sự kiện đối với thế hệ sinh viên, đặc biệt trong lĩnh vực công nghệ thông tin.",
+            "image_path": "../sample/event_0/00001986.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_06_31_41",
+            "sce_des": "Khung cảnh cho thấy một hội trường hoặc phòng họp lớn, nơi đang diễn ra một sự kiện trang trọng. Ánh sáng trong khán phòng có vẻ đủ rõ, tập trung vào khu vực ghế ngồi của khán giả. Màu sắc chủ đạo trong không gian là gam đỏ nổi bật của những chiếc ghế bọc nệm, cùng với tông màu trầm của trang phục mà các sinh viên đang mặc, tạo nên một không khí chuyên nghiệp nhưng vẫn có phần trẻ trung. Đây là buổi lễ tổng kết và trao giải cuộc thi \"Sinh viên với an toàn thông tin ASIAN năm 2023\", một sự kiện quan trọng do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức, nhằm phát hiện và bồi dưỡng những tài năng trẻ trong lĩnh vực này. Trong bức ảnh, hàng trăm sinh viên đang ngồi ngay ngắn trên những chiếc ghế đỏ được sắp xếp thành từng hàng dài, hướng về phía sân khấu hoặc bục phát biểu không thấy rõ trong khung hình. Phần lớn họ là nam giới trẻ tuổi, với đặc điểm ngoại hình chung là tóc ngắn, gương mặt tập trung hoặc trầm tư. Trang phục của họ khá đa dạng, chủ yếu là các loại áo polo, áo thun hoặc áo hoodie với các gam màu như đen, trắng, xám và xanh nhạt, thể hiện sự thoải mái và năng động. Một số sinh viên có đeo kính cận và một vài người đeo khẩu trang y tế màu trắng. Mặc dù có nhiều người đang theo dõi sự kiện, nhưng cũng có một vài sinh viên chọn cách tương tác với thiết bị cá nhân hoặc trò chuyện nhẹ, tạo nên một bức tranh sinh động về không khí của buổi tổng kết này.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa, góc dưới bên trái khung hình",
+                        "pos3d": "gần camera, hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu trắng phối đen, có đeo một chiếc túi chéo màu đen qua vai",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính cận, dáng vẻ tập trung",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía trên bên trái, hơi lùi về sau so với E1",
+                        "pos3d": "xa hơn E1 một chút"
+                    },
+                    "attr": {
+                        "clothing": "áo thun màu đen, khẩu trang y tế màu xám/trắng kéo xuống dưới cằm",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính cận, gương mặt trung tính",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, phía sau E1 và E5",
+                        "pos3d": "ở giữa, hàng ghế thứ hai"
+                    },
+                    "attr": {
+                        "clothing": "áo hoodie màu xám đậm",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính cận, đang cười tươi tắn",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "góc phải khung hình, ngang hàng với E3",
+                        "pos3d": "ở giữa, hàng ghế thứ hai"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh nhạt/xanh bạc hà, đeo khẩu trang y tế màu trắng",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính cận, gương mặt trung tính",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "góc dưới bên phải khung hình",
+                        "pos3d": "gần camera, hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo thun màu đen/xám đậm",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, gương mặt tập trung nhìn xuống",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": "sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "góc dưới cùng bên phải, một phần cơ thể",
+                        "pos3d": "gần camera, hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo dài tay màu hồng nhạt, đeo khẩu trang y tế màu trắng",
+                        "vis": "nữ, khoảng 20-25 tuổi, tóc đen dài, gương mặt trung tính nhìn xuống",
+                        "role": "người tham gia sự kiện, sinh viên"
+                    }
+                },
+                {
+                    "id_": "G1",
+                    "iden": {
+                        "name": null,
+                        "label": "khán giả/sinh viên",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trải dài khắp khung hình",
+                        "pos3d": "từ gần đến xa"
+                    },
+                    "attr": {
+                        "role": "khán giả, sinh viên tham gia sự kiện",
+                        "clothing": "chủ yếu là trang phục thường ngày như áo polo, áo thun, áo hoodie với các màu sắc như đen, trắng, xám, xanh",
+                        "vis": "chủ yếu là nam giới trẻ tuổi, độ tuổi khoảng 18-25, nhiều người đeo kính",
+                        "des": "ngồi thành hàng dài trên ghế đỏ trong hội trường, hướng về phía trước",
+                        "amount": "hơn 50 người (ước tính)"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": {
+                        "name": null,
+                        "label": "điện thoại di động",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trong tay E5, góc dưới bên phải",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật dẹt, màu đen, kích thước nhỏ gọn",
+                        "func": "thiết bị liên lạc và giải trí cá nhân"
+                    }
+                },
+                {
+                    "id_": "O2",
+                    "iden": {
+                        "name": null,
+                        "label": "ghế ngồi",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trải khắp khung hình",
+                        "pos3d": "từ gần đến xa"
+                    },
+                    "attr": {
+                        "vis": "màu đỏ tươi, bọc nệm, thiết kế đơn lẻ cho từng người",
+                        "func": "cung cấp chỗ ngồi cho khán giả",
+                        "des": "xếp thành hàng dài, tạo nên cấu trúc khán phòng",
+                        "amount": "hơn 50 cái (ước tính)"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "G1",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "G1 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E1 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E2 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E3 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E4 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E5 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "O2",
+                    "type_rel": "vị trí",
+                    "des": "E6 đang ngồi trên O2"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "O1",
+                    "type_rel": "hành động",
+                    "des": "E5 đang cầm O1"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "O1",
+                    "type_rel": "hành động",
+                    "des": "E5 đang nhìn vào O1"
+                }
+            ],
+            "ocr": null
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2227",
+            "visual_caption": "Một góc cận cảnh của người đàn ông đang phát biểu trên sân khấu, làm nổi bật sự tập trung và nghiêm túc của ông. Người đàn ông này, có vẻ ngoài khoảng 50-60 tuổi, tóc cắt ngắn gọn gàng, đang mặc bộ vest màu xanh nhạt và đeo kính cận. Ông đứng sau một bục phát biểu màu trắng sang trọng, trên đó có gắn một micro, và ông đang cầm một tay lên cao như đang diễn đạt một điểm nhấn quan trọng trong bài nói của mình. Biểu cảm trên khuôn mặt ông rất tập trung và tự tin, cho thấy ông là một diễn giả có kinh nghiệm và đang truyền tải thông điệp một cách mạnh mẽ. Phía sau bục phát biểu, một chậu cây xanh nhỏ được đặt để trang trí, tạo thêm vẻ tươi mát cho không gian. Ánh sáng từ đèn sân khấu chiếu thẳng vào ông, làm nổi bật từng chi tiết trên khuôn mặt và cử chỉ. Toàn bộ hình ảnh tập trung vào người phát biểu, nhấn mạnh vai trò trung tâm của ông trong buổi lễ này.",
+            "image_path": "../sample/event_0/00002227.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_01",
+            "sce_des": "Một người đàn ông trung niên đang phát biểu tại một sự kiện trang trọng trên sân khấu với phông nền tối, có bục thuyết trình và lẵng hoa trang trí. Cảnh quay tập trung vào diễn giả, tạo không khí nghiêm túc và chuyên nghiệp.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở trung tâm khung hình, hơi chếch về bên phải",
+                        "pos3d": "gần camera, đứng sau bục thuyết trình"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi màu xanh nhạt và khoác ngoài là bộ vest màu xanh xám lịch sự, đeo kính gọng đen",
+                        "vis": "nam giới, khoảng 50-60 tuổi, tóc bạc, khuôn mặt nghiêm túc, đang cúi đầu nhìn xuống tài liệu",
+                        "role": "diễn giả hoặc đại diện ban tổ chức"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "bục thuyết trình",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở phía dưới trung tâm khung hình, trước người đàn ông",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "bục màu tối, lớn, hình khối chắc chắn, có bề mặt phẳng để đặt tài liệu và các vật dụng",
+                        "func": "dùng để hỗ trợ người phát biểu, đặt tài liệu và micro"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "lẵng hoa",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở phía dưới bên trái của khung hình, trên bục thuyết trình",
+                        "pos3d": "gần camera, phía trước bục thuyết trình"
+                    },
+                    "attr": {
+                        "vis": "lẵng hoa trang trí với nhiều bông hoa màu trắng và vàng nhạt, xen kẽ lá xanh tươi tắn, kích thước vừa phải",
+                        "func": "dùng để trang trí, tạo điểm nhấn và không khí trang trọng cho sự kiện"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "micro",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở phía dưới trung tâm khung hình, trên bục thuyết trình",
+                        "pos3d": "gần camera, phía trước người đàn ông"
+                    },
+                    "attr": {
+                        "vis": "micro màu xám bạc, thân dài, được gắn cố định vào bục",
+                        "func": "dùng để thu âm giọng nói của diễn giả, truyền tải âm thanh đến khán giả"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đứng phía sau"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E4",
+                    "type_rel": "hành động",
+                    "des": "đang phát biểu qua"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đặt trên"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "gắn trên"
+                }
+            ],
+            "ocr": null
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2144",
+            "visual_caption": "Một cái nhìn toàn cảnh về sân khấu và khán phòng rộng lớn, được chiếu sáng bằng đèn sân khấu chuyên nghiệp, đang diễn ra một phần của buổi lễ hoặc hội thảo. Ở trung tâm sân khấu, một người đàn ông lớn tuổi hơn, khoảng 50-60 tuổi, mặc bộ vest màu xanh nhạt lịch lãm, đang đứng phát biểu tại một bục phát biểu màu trắng sang trọng. Phía sau ông là một màn hình lớn đang hiển thị phông nền sự kiện, tương tự như các khung hình trước, với các biểu tượng và tên cuộc thi. Bên phải sân khấu, một người phụ nữ trẻ tuổi hơn, mặc váy đen, đang đứng thẳng cạnh một chiếc loa lớn, có vẻ là một thành viên ban tổ chức hoặc người hỗ trợ. Hai bên sân khấu là những tấm banner dọc màu trắng cao lớn, góp phần tạo nên vẻ trang trọng cho không gian. Phía dưới, khán phòng được lấp đầy bởi hàng trăm ghế màu đỏ, và nhiều người đang ngồi chăm chú lắng nghe bài phát biểu. Không khí chung của sự kiện là trang trọng và chuyên nghiệp, với ánh sáng tập trung vào người phát biểu, nhấn mạnh tầm quan trọng của những lời chia sẻ.",
+            "image_path": "../sample/event_0/00002144.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_001",
+            "sce_des": "Bức ảnh ghi lại một sự kiện hội thảo hoặc lễ tổng kết diễn ra trong một khán phòng lớn, với bối cảnh sân khấu được trang hoàng chuyên nghiệp và một diễn giả đang phát biểu trước đông đảo khán giả.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở trung tâm sân khấu",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi xanh nhạt bên trong áo vest tối màu, tạo vẻ ngoài lịch sự và chuyên nghiệp",
+                        "vis": "nam giới, tóc bạc, khoảng 50-60 tuổi, gương mặt tập trung",
+                        "role": "diễn giả hoặc người chủ trì sự kiện"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc phải của sân khấu, đứng thấp hơn diễn giả",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "clothing": "áo thun dài tay màu đen và quần dài màu đen, cùng đôi giày thể thao trắng",
+                        "vis": "nữ giới, tóc dài màu đen, khoảng 20-30 tuổi, đang giơ máy ảnh chụp",
+                        "role": "nhiếp ảnh gia của sự kiện"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở hàng ghế phía trước, dưới sân khấu",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "role": "khán giả hoặc người tham dự hội thảo",
+                        "clothing": "chủ yếu là áo sơ mi trắng hoặc trang phục công sở",
+                        "vis": "đa số là nam giới, độ tuổi thanh niên đến trung niên",
+                        "des": "ngồi thành nhiều hàng ghế, chăm chú nhìn về phía sân khấu",
+                        "amount": "hơn 10 người"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa sân khấu, trước mặt diễn giả",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "bục phát biểu làm bằng gỗ màu nâu sẫm, phía trước có in logo 'PTTT' màu đỏ và trắng, có thiết kế vững chãi và chuyên nghiệp",
+                        "func": "dùng để đặt tài liệu, micro cho diễn giả phát biểu"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía bên trái sân khấu",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "màn hình LED lớn hình chữ nhật, hiển thị nền xanh dương với các đường kẻ trắng và logo 'PTTT', 'MATBAO', 'viettel'",
+                        "func": "hiển thị thông tin, logo nhà tài trợ hoặc hình ảnh liên quan đến sự kiện"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía bên phải sân khấu, gần nhiếp ảnh gia",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "tấm banner đứng lớn, màu trắng với chữ và logo màu xanh, đỏ. Tiêu đề rõ ràng là 'CUỘC THI SINH VIÊN AN TOÀN THÔNG TIN ASEAN 2023', kèm theo 'INFORMATION SECURITY' và 'viettel'",
+                        "func": "tuyên truyền, giới thiệu về nội dung và nhà tài trợ của cuộc thi"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trên tay nhiếp ảnh gia",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "máy ảnh kỹ thuật số màu đen, có ống kính lớn, dáng gọn",
+                        "func": "dùng để chụp ảnh và ghi lại khoảnh khắc sự kiện"
+                    }
+                },
+                {
+                    "id_": "E8",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía dưới, bên phải khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "nhiều chai nước suối bằng nhựa trong suốt, có nắp màu xanh, được sắp xếp gọn gàng trên bàn",
+                        "func": "cung cấp nước uống cho người tham dự",
+                        "des": "đặt trên bàn phủ khăn đỏ",
+                        "amount": "hơn 3 chai"
+                    }
+                },
+                {
+                    "id_": "E9",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "nằm giữa khu vực khán giả và sân khấu",
+                        "pos3d": "giữa khung hình"
+                    },
+                    "attr": {
+                        "vis": "các bậc thang lớn, màu hồng nổi bật, kết nối sân khấu với khu vực khán giả",
+                        "func": "dùng để di chuyển lên xuống sân khấu",
+                        "des": "thiết kế rộng rãi, có nhiều bậc",
+                        "amount": "nhiều bậc"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "đứng phía sau"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E3",
+                    "type_rel": "hành động",
+                    "des": "đang phát biểu trước"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E7",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang chụp ảnh"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang lắng nghe và quan sát"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "đặt bên phải"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E6",
+                    "type_rel": "vị trí",
+                    "des": "đặt bên trái"
+                },
+                {
+                    "subj": "E8",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đặt gần khu vực ngồi của"
+                },
+                {
+                    "subj": "E9",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "là lối đi lên của"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "PTTT",
+                    "des": "Logo của một tổ chức hoặc nhà tài trợ"
+                },
+                {
+                    "content": "MATBAO",
+                    "des": "Logo của một tổ chức hoặc nhà tài trợ"
+                },
+                {
+                    "content": "viettel",
+                    "des": "Logo của nhà mạng Viettel, một nhà tài trợ"
+                },
+                {
+                    "content": "CUỘC THI SINH VIÊN AN TOÀN THÔNG TIN ASEAN 2023",
+                    "des": "Tên chính thức của cuộc thi"
+                },
+                {
+                    "content": "SINH VIÊN STUDENT CONTEST",
+                    "des": "Diễn giải tiếng Anh cho cuộc thi sinh viên"
+                },
+                {
+                    "content": "INFORMATION SECURITY",
+                    "des": "Lĩnh vực của cuộc thi, an toàn thông tin"
+                },
+                {
+                    "content": "2023",
+                    "des": "Năm diễn ra cuộc thi"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2296",
+            "visual_caption": "Khán phòng rộng lớn được ghi lại từ một góc nhìn cao hơn, cho thấy toàn bộ không gian sự kiện với sân khấu và khu vực khán giả. Sân khấu phía xa được trang bị một màn hình lớn hiển thị thông tin cuộc thi và hai tấm banner dọc màu trắng ở hai bên. Một bục phát biểu sang trọng cũng được đặt ở trung tâm sân khấu, nơi người phát biểu vừa đứng. Phía dưới sân khấu, hàng trăm chiếc ghế màu đỏ được sắp xếp thẳng tắp, phần lớn đã có người ngồi, tạo nên một không khí đông đúc và trang trọng. Ở tiền cảnh, có thể thấy một số bàn dài được trải khăn trắng, trên đó đặt nhiều chai nước lọc, phục vụ cho những người tham dự. Ánh sáng đèn trong khán phòng dịu nhẹ, tạo cảm giác ấm cúng, trong khi sân khấu được chiếu sáng nổi bật hơn. Tổng thể khung cảnh cho thấy một buổi hội thảo hoặc lễ trao giải được tổ chức quy mô, với sự chuẩn bị chu đáo về mặt không gian và tiện nghi cho khách mời.",
+            "image_path": "../sample/event_0/00002296.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_063153",
+            "sce_des": "Cảnh quay tổng thể một buổi lễ tổng kết và trao giải cuộc thi an toàn thông tin được tổ chức trong một hội trường lớn với hàng trăm người tham dự, thể hiện không khí trang trọng và tập trung.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "người tham dự",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi màu xanh nhạt, đeo dây thẻ",
+                        "vis": "nam, khoảng 25-30 tuổi, tóc đen ngắn, dáng người vừa phải, vẻ mặt tập trung",
+                        "role": "người tham gia sự kiện"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "người tham dự",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở giữa bên trái khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo phông đen có cổ",
+                        "vis": "nữ, khoảng 25-30 tuổi, tóc đen dài ngang vai, vẻ mặt tập trung vào điện thoại",
+                        "role": "người tham gia sự kiện"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "bàn hội nghị",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở phía trước và bên phải khung hình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "bàn dài hình chữ nhật, phủ khăn trải bàn màu đỏ sẫm, phía trên có đặt chai nước và ly thủy tinh",
+                        "func": "dùng để đặt đồ uống và tài liệu cho khách mời"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "chai nước",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên bàn ở phía trước và bên phải",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "chai nhựa trong suốt chứa nước lọc",
+                        "func": "đồ uống phục vụ đại biểu"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "ly thủy tinh",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trên bàn ở phía trước và bên phải",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "ly thủy tinh trong suốt, không có họa tiết",
+                        "func": "để uống nước"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": {
+                        "name": null,
+                        "label": "nhóm khách mời/ban tổ chức",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "ở hàng ghế đầu và bàn dài phía bên phải",
+                        "pos3d": "xa hơn so với người ngồi phía trước"
+                    },
+                    "attr": {
+                        "role": "khách mời, ban giám khảo hoặc ban tổ chức",
+                        "clothing": "đa số mặc áo sơ mi, vest, quần âu với các màu sắc như trắng, xanh, đen",
+                        "vis": "đa số là nam giới, độ tuổi trung niên",
+                        "des": "ngồi thẳng hàng tại các bàn dài được phủ khăn đỏ, một số người đang xem tài liệu hoặc sử dụng điện thoại",
+                        "amount": "khoảng 10-15 người"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": {
+                        "name": null,
+                        "label": "nhóm sinh viên/khán giả",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "chiếm phần lớn không gian hội trường",
+                        "pos3d": "từ giữa đến xa phía sau"
+                    },
+                    "attr": {
+                        "role": "sinh viên, người tham gia hoặc khán giả",
+                        "clothing": "trang phục đa dạng, chủ yếu là áo phông, áo sơ mi",
+                        "vis": "đa số là người trẻ, cả nam và nữ",
+                        "des": "ngồi kín các hàng ghế đỏ trong hội trường, hướng về phía sân khấu (không thấy trong khung hình), thể hiện sự tập trung vào sự kiện",
+                        "amount": "hơn 100 người"
+                    }
+                },
+                {
+                    "id_": "E8",
+                    "iden": {
+                        "name": null,
+                        "label": "ghế hội trường",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "khắp không gian hội trường",
+                        "pos3d": "từ gần đến xa"
+                    },
+                    "attr": {
+                        "vis": "ghế bọc vải màu đỏ sẫm, có tựa lưng và tay vịn, được xếp thành hàng lối ngay ngắn",
+                        "func": "dùng để người tham dự ngồi",
+                        "des": "xếp thành hàng dài hướng về phía trước sân khấu, tạo không gian chuyên nghiệp cho sự kiện",
+                        "amount": "hàng trăm chiếc"
+                    }
+                },
+                {
+                    "id_": "E9",
+                    "iden": {
+                        "name": null,
+                        "label": "màn hình/banner",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía trên cùng của khung hình",
+                        "pos3d": "xa nhất phía sau"
+                    },
+                    "attr": {
+                        "vis": "màn hình hoặc banner lớn màu xanh lam với chữ trắng, có vẻ liên quan đến chủ đề công nghệ hoặc sự kiện",
+                        "func": "hiển thị thông tin hoặc tiêu đề sự kiện",
+                        "des": "chiếm phần trên cùng của bức tường phía cuối hội trường",
+                        "amount": "1 chiếc"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E8",
+                    "type_rel": "vị trí",
+                    "des": "ngồi trên"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E8",
+                    "type_rel": "vị trí",
+                    "des": "ngồi trên"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E8",
+                    "type_rel": "vị trí",
+                    "des": "ngồi trên"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E8",
+                    "type_rel": "vị trí",
+                    "des": "ngồi trên"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "ngồi trước"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đặt trên"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đặt trên"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "ngồi bên cạnh"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "THÀNH CÔNG",
+                    "des": "Một phần của tiêu đề hoặc khẩu hiệu trên màn hình chính của sự kiện, ngụ ý về thành tựu và kết quả tốt đẹp của cuộc thi."
+                },
+                {
+                    "content": "THÔNG",
+                    "des": "Một phần của từ 'Thông tin' hoặc 'Truyền thông', liên quan đến chủ đề an toàn thông tin của cuộc thi."
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2328",
+            "visual_caption": "Một nhóm các thanh niên đang ngồi tại các bàn dài được trải khăn trắng trong khán phòng, tạo nên một không gian làm việc hoặc giao lưu. Hầu hết họ đều là nam giới, ước tính trong độ tuổi sinh viên hoặc mới đi làm, mặc trang phục đơn giản và thoải mái như áo phông hoặc áo sơ mi. Một số người đang chăm chú xem xét tài liệu hoặc giấy tờ đặt trên bàn, có thể là đề thi, hướng dẫn, hoặc ghi chú về sự kiện. Một vài người khác đang trò chuyện nhẹ nhàng với nhau, thể hiện sự tương tác và trao đổi thông tin. Trên bàn, có thể thấy rõ các chai nước lọc được đặt sẵn, phục vụ nhu cầu của những người tham dự. Ánh sáng trong khán phòng khá đều và đủ độ sáng, tạo môi trường thuận lợi cho việc học tập hoặc làm việc nhóm. Sự hiện diện của họ ở khu vực bàn ghế cho thấy đây có thể là khu vực dành cho các đội thi, ban giám khảo, hoặc khách mời cần không gian riêng để trao đổi trong suốt sự kiện.",
+            "image_path": "../sample/event_0/00002328.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0000",
+            "sce_des": "Bối cảnh là một buổi lễ tổng kết và trao giải diễn ra trong một hội trường lớn, được chiếu sáng đầy đủ bởi ánh đèn trong nhà, tạo không gian trang trọng và chuyên nghiệp. Màu sắc chủ đạo của hội trường là sự kết hợp giữa gam đỏ sẫm của hàng ghế và khăn trải bàn, cùng với nền tường màu be nhạt ở phía sau, tạo nên một không gian ấm cúng nhưng không kém phần nghiêm túc. Đây là sự kiện quan trọng, được biết đến là lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023, do Hiệp hội An toàn thông tin Việt Nam phối hợp với các Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái, gần trung tâm khung hình",
+                        "pos3d": "hàng ghế đầu tiên, gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng dài tay",
+                        "vis": "nam, khoảng 40-50 tuổi, tóc đen ngắn, đeo kính gọng đen",
+                        "role": "người tham dự sự kiện/đại biểu"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "bên phải E1, ở giữa khung hình",
+                        "pos3d": "hàng ghế đầu tiên, gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi xanh nhạt",
+                        "vis": "nam, khoảng 40-50 tuổi, tóc đen ngắn",
+                        "role": "người tham dự sự kiện/đại biểu"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "bên phải E2, ở giữa khung hình",
+                        "pos3d": "hàng ghế đầu tiên, gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi sẫm màu, áo vest/blazer tối màu",
+                        "vis": "nam, khoảng 40-50 tuổi, tóc đen ngắn, đeo kính",
+                        "role": "người tham dự sự kiện/đại biểu"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "bên phải E3, ở giữa khung hình",
+                        "pos3d": "hàng ghế đầu tiên, gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng, áo vest xanh đậm, cà vạt đỏ",
+                        "vis": "nam, khoảng 40-50 tuổi, tóc đen ngắn, đeo kính",
+                        "role": "người tham dự sự kiện/đại biểu"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía sau E4, ở góc phải khung hình",
+                        "pos3d": "hàng ghế thứ hai, ở khoảng giữa"
+                    },
+                    "attr": {
+                        "clothing": "áo màu xanh lá cây nhạt",
+                        "vis": "nữ, khoảng 30-40 tuổi, tóc ngắn",
+                        "role": "người tham dự sự kiện"
+                    }
+                },
+                {
+                    "id_": "GHE1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa và bên phải khung hình",
+                        "pos3d": "hàng ghế đầu tiên, gần camera"
+                    },
+                    "attr": {
+                        "role": "các đại biểu, khách mời quan trọng hoặc ban tổ chức",
+                        "clothing": "áo sơ mi sáng màu, một số người mặc vest",
+                        "vis": "chủ yếu là nam giới trung niên",
+                        "des": "đang ngồi và tập trung theo dõi sự kiện, một số đang xem tài liệu",
+                        "amount": "khoảng 5-7 người"
+                    }
+                },
+                {
+                    "id_": "GHE2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "từ giữa đến phía trên khung hình",
+                        "pos3d": "các hàng ghế phía sau, xa camera hơn"
+                    },
+                    "attr": {
+                        "role": "sinh viên, người tham dự hoặc khán giả",
+                        "clothing": "trang phục đời thường hơn, có người mặc áo phông, áo sơ mi",
+                        "vis": "đa dạng độ tuổi, có cả nam và nữ, chủ yếu là thanh niên",
+                        "des": "đang ngồi và tập trung theo dõi, một số người dùng điện thoại",
+                        "amount": "hơn 10 người"
+                    }
+                },
+                {
+                    "id_": "O1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía trước hàng ghế đầu, kéo dài ngang khung hình từ giữa sang phải",
+                        "pos3d": "ở phía trước các đại biểu"
+                    },
+                    "attr": {
+                        "vis": "hình chữ nhật dài, phủ khăn trải bàn màu đỏ sẫm",
+                        "func": "bàn dành cho đại biểu/khách mời"
+                    }
+                },
+                {
+                    "id_": "O2",
+                    "iden": {
+                        "name": null,
+                        "label": "chai nước suối",
+                        "brand": "Lavie"
+                    },
+                    "pos": {
+                        "pos2d": "trên bàn O1, rải rác",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "chai nhựa trong suốt, hình trụ, có nhãn hiệu 'Lavie' màu xanh",
+                        "func": "dùng để uống nước"
+                    }
+                },
+                {
+                    "id_": "O3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trên bàn O1, rải rác",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "ly thủy tinh trong suốt, hình trụ",
+                        "func": "dùng để uống nước"
+                    }
+                },
+                {
+                    "id_": "O4",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trên bàn O1, rải rác",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "đĩa/hộp nhỏ, màu trắng, chứa một ít đồ ăn nhẹ (ví dụ bánh kẹo)",
+                        "func": "phục vụ đồ ăn nhẹ cho người tham dự"
+                    }
+                },
+                {
+                    "id_": "O5",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trên tay E2 và E5, trên bàn",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "giấy tờ hoặc quyển sách mỏng, màu trắng",
+                        "func": "chứa thông tin liên quan đến sự kiện"
+                    }
+                },
+                {
+                    "id_": "O6",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "khắp hội trường",
+                        "pos3d": "từ gần đến xa camera"
+                    },
+                    "attr": {
+                        "vis": "ghế bọc nệm màu đỏ tươi, có tựa lưng cao",
+                        "func": "dùng để ngồi"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "GHE1",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "GHE2",
+                    "obj": "O6",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên"
+                },
+                {
+                    "subj": "O1",
+                    "obj": "E1",
+                    "type_rel": "vị trí",
+                    "des": "đang ở phía trước"
+                },
+                {
+                    "subj": "O1",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đang ở phía trước"
+                },
+                {
+                    "subj": "O1",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đang ở phía trước"
+                },
+                {
+                    "subj": "O1",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "đang ở phía trước"
+                },
+                {
+                    "subj": "O2",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đang đặt trên"
+                },
+                {
+                    "subj": "O3",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đang đặt trên"
+                },
+                {
+                    "subj": "O4",
+                    "obj": "O1",
+                    "type_rel": "vị trí",
+                    "des": "đang đặt trên"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "O5",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "O5",
+                    "type_rel": "hành động",
+                    "des": "đang cầm"
+                },
+                {
+                    "subj": "GHE1",
+                    "obj": "GHE2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi phía trước"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "Lavie",
+                    "des": "Tên thương hiệu nước uống"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2356",
+            "visual_caption": "Tiếp tục với khung cảnh khán phòng, một nhóm các thanh niên đang ngồi tập trung, thể hiện sự chú ý cao độ vào sự kiện. Hầu hết họ đều là nam giới, với độ tuổi trẻ trung, mặc các loại áo phông hoặc áo sơ mi khác nhau, nhưng đều mang vẻ ngoài năng động. Một số người trong số họ đeo kính, cho thấy sự tập trung vào các chi tiết hoặc công việc chuyên môn. Ánh mắt của họ đều hướng về phía sân khấu hoặc một điểm chung phía trước, biểu lộ sự lắng nghe chăm chú hoặc theo dõi diễn biến tiếp theo của chương trình. Tư thế ngồi thẳng lưng và ánh mắt không rời cho thấy họ đang rất quan tâm đến nội dung được trình bày. Ánh sáng từ phía trước rọi vào làm sáng gương mặt họ, làm nổi bật biểu cảm nghiêm túc và suy tư. Không khí trong khán phòng có vẻ trầm lắng, tạo điều kiện lý tưởng cho việc tiếp thu thông tin hoặc tập trung vào bài giảng/thông báo.",
+            "image_path": "../sample/event_0/00002356.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0",
+            "sce_des": "Cảnh quay mở ra một không gian hội trường lớn, nơi đang diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASEAN 2023, một sự kiện do Hiệp hội An toàn thông tin Việt Nam cùng Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông phối hợp tổ chức. Ánh sáng nhân tạo trong hội trường đủ rõ ràng để chiếu sáng toàn bộ không gian, làm nổi bật những hàng ghế màu đỏ tươi tắn xếp ngay ngắn. Phía sau các hàng ghế, bức tường được ốp gỗ màu nâu trầm tạo nên một phông nền đơn giản nhưng trang trọng cho sự kiện. Hàng trăm người tham dự, chủ yếu là các bạn sinh viên nam trẻ tuổi, với độ tuổi ước tính từ 20 đến 30, đang ngồi chăm chú trên những chiếc ghế đỏ. Nhiều người trong số họ đeo kính và có kiểu tóc ngắn gọn gàng, thể hiện sự tập trung cao độ vào diễn biến trên sân khấu. Trang phục của họ khá đa dạng, từ áo thun, áo polo cho đến áo sơ mi lịch sự, một số còn đeo dây thẻ hoặc phù hiệu, có thể là của ban tổ chức hoặc các đội thi. Ở hàng ghế đầu tiên, hai sinh viên nam nổi bật với chiếc ba lô màu đen lớn đặt ngay phía trước, cho thấy sự chuẩn bị đầy đủ khi đến dự. Xa hơn về phía sau hội trường, một người quay phim nam mặc áo sơ mi trắng đang đứng điều khiển một chiếc máy quay chuyên nghiệp màu đen trên chân máy, ghi lại toàn bộ khoảnh khắc quan trọng của buổi lễ. Nhìn chung, không khí trong hội trường toát lên sự nghiêm túc và tập trung, phản ánh đúng tính chất quan trọng của một cuộc thi quy mô lớn nhằm tìm kiếm và phát triển nhân tài trong lĩnh vực an toàn thông tin.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái khung hình",
+                        "pos3d": "gần camera, hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo thun màu đỏ đậm, đeo dây thẻ màu xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính gọng đen, gương mặt tập trung nhìn về phía trước",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc dưới giữa khung hình, bên phải E1",
+                        "pos3d": "gần camera, hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi đen, đeo dây thẻ màu xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính gọng đen, gương mặt tập trung nhìn về phía trước",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, bên phải E2",
+                        "pos3d": "hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo polo màu xanh rêu, đeo dây thẻ màu xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính gọng tròn, gương mặt tập trung nhìn về phía trước",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, bên phải E3",
+                        "pos3d": "hàng ghế đầu"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng, đeo dây thẻ màu xanh",
+                        "vis": "nam, khoảng 20-25 tuổi, tóc đen ngắn, đeo kính gọng đen, gương mặt tập trung nhìn về phía trước",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở phía trên bên trái khung hình",
+                        "pos3d": "xa phía sau hàng ghế cuối cùng"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi trắng",
+                        "vis": "nam, khoảng 30-40 tuổi, tóc ngắn, dáng người cao, đang đứng điều khiển máy quay",
+                        "role": "người quay phim/phóng viên"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa bên trái khung hình, phía sau E1",
+                        "pos3d": "xa hơn về phía sau"
+                    },
+                    "attr": {
+                        "clothing": "áo màu be, đeo khẩu trang y tế màu trắng",
+                        "vis": "nữ, khoảng 20-25 tuổi, tóc dài buộc, gương mặt được che bởi khẩu trang",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, phía sau E4",
+                        "pos3d": "xa hơn về phía sau"
+                    },
+                    "attr": {
+                        "clothing": "áo màu be, đeo khẩu trang y tế màu trắng",
+                        "vis": "nữ, khoảng 20-25 tuổi, tóc đen, gương mặt được che bởi khẩu trang",
+                        "role": "sinh viên/người tham gia"
+                    }
+                },
+                {
+                    "id_": "E1_Bag",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở góc dưới bên trái khung hình, trước E1",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "ba lô lớn, màu đen, chất liệu vải, có nhiều ngăn kéo khóa",
+                        "func": "dùng để đựng đồ cá nhân hoặc tài liệu học tập"
+                    }
+                },
+                {
+                    "id_": "E2_Bag",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở giữa khung hình, trước E2",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "ba lô lớn, màu đen, chất liệu vải, có nhiều ngăn kéo khóa",
+                        "func": "dùng để đựng đồ cá nhân hoặc tài liệu học tập"
+                    }
+                },
+                {
+                    "id_": "E8",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở phía trên bên trái khung hình, gần E5",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "máy quay chuyên nghiệp màu đen, có ống kính lớn, đặt trên chân máy ba chân",
+                        "func": "thiết bị ghi hình, dùng để quay phim sự kiện"
+                    }
+                },
+                {
+                    "id_": "G1",
+                    "iden": null,
+                    "pos": null,
+                    "attr": {
+                        "role": "khán giả/sinh viên tham dự",
+                        "clothing": "đa dạng, bao gồm áo thun, áo polo, áo sơ mi; một số đeo dây thẻ",
+                        "vis": "chủ yếu nam giới, trẻ tuổi (khoảng 20-30), nhiều người đeo kính",
+                        "des": "ngồi kín các hàng ghế đỏ trong hội trường, hướng mặt về phía trước sân khấu, thể hiện sự tập trung cao độ",
+                        "amount": "hơn 100 người"
+                    }
+                },
+                {
+                    "id_": "G2",
+                    "iden": null,
+                    "pos": null,
+                    "attr": {
+                        "vis": "ghế ngồi hình chữ nhật, đệm dày, màu đỏ nổi bật",
+                        "func": "ghế ngồi cho khán giả/người tham dự",
+                        "des": "xếp thành nhiều hàng ngang đều đặn trong hội trường, hướng về phía sân khấu",
+                        "amount": "hàng trăm chiếc"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E1_Bag",
+                    "type_rel": "vị trí",
+                    "des": "có một ba lô đặt ở phía trước"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E2_Bag",
+                    "type_rel": "vị trí",
+                    "des": "có một ba lô đặt ở phía trước"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "E8",
+                    "type_rel": "hành động",
+                    "des": "đang điều khiển"
+                },
+                {
+                    "subj": "E8",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "được điều khiển bởi"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên một chiếc ghế đỏ"
+                },
+                {
+                    "subj": "G1",
+                    "obj": "G2",
+                    "type_rel": "vị trí",
+                    "des": "đang ngồi trên các hàng ghế"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "ngồi bên cạnh"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "ngồi bên cạnh"
+                },
+                {
+                    "subj": "E3",
+                    "obj": "E4",
+                    "type_rel": "vị trí",
+                    "des": "ngồi bên cạnh"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "G1",
+                    "type_rel": "vị trí",
+                    "des": "đứng phía sau"
+                }
+            ],
+            "ocr": null
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2394",
+            "visual_caption": "Sân khấu được chiếu sáng rực rỡ một lần nữa trở thành tâm điểm, với một màn hình lớn hiển thị thông tin quan trọng của sự kiện. Trên màn hình, dòng chữ \"ĐƠN VỊ TÀI TRỢ CHÍNH\" nổi bật, sau đó là tên \"ÔNG NGUYỄN XUÂN NAM\" và chức danh \"Giám đốc chiến lược, công ty An toàn mạng Viettel\", cho thấy sự ghi nhận và tôn vinh một trong những nhà tài trợ chính của cuộc thi. Các thông tin khác về \"CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASEAN 2023\" vẫn được hiển thị bên dưới. Hai bên màn hình là những tấm banner dọc màu trắng cao lớn, góp phần tăng thêm vẻ trang trọng cho không gian. Ở phía dưới sân khấu, các hàng ghế khán giả màu đỏ vẫn được lấp đầy bởi những người tham dự, họ đang hướng mắt về phía màn hình hoặc sân khấu. Ánh sáng mạnh từ đèn sân khấu tập trung vào màn hình, làm nổi bật thông điệp về nhà tài trợ. Khung cảnh này cho thấy buổi lễ đang ở phần tri ân và giới thiệu các đối tác đã hỗ trợ cho sự kiện.",
+            "image_path": "../sample/event_0/00002394.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_0001",
+            "sce_des": "Bối cảnh tổng thể là một hội trường lớn đang diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên về an toàn thông tin, với một diễn giả đang phát biểu trên sân khấu trước đông đảo khán giả.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "ở bên phải sân khấu, gần trung tâm",
+                        "pos3d": "ở gần phía trước, trên sân khấu"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi màu sáng và quần tối màu",
+                        "vis": "nam giới, khoảng 40-50 tuổi, tóc ngắn gọn gàng, đang đứng nghiêm túc",
+                        "role": "người thuyết trình hoặc đại diện ban tổ chức"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "trung tâm bên phải sân khấu",
+                        "pos3d": "ở gần phía trước, trên sân khấu"
+                    },
+                    "attr": {
+                        "vis": "bục phát biểu bằng gỗ màu nâu đậm, có hình chữ nhật đứng với phần đế rộng, phía trước có gắn logo nhỏ",
+                        "func": "dùng làm nơi cho diễn giả đứng và phát biểu"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "chiếm phần lớn diện tích phía sau sân khấu",
+                        "pos3d": "ở phía xa sau cùng của sân khấu"
+                    },
+                    "attr": {
+                        "vis": "màn hình LED lớn hình chữ nhật, hiển thị nền màu xanh lam với các họa tiết đồ họa và chữ trắng, có logo của cuộc thi và các nhà tài trợ",
+                        "func": "hiển thị thông tin, tên cuộc thi, nhà tài trợ, và các nội dung trình chiếu liên quan đến sự kiện"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": "Bác Hồ",
+                        "label": "tượng",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "góc dưới bên trái sân khấu, gần rèm đỏ",
+                        "pos3d": "ở phía sau bên trái sân khấu"
+                    },
+                    "attr": {
+                        "vis": "bức tượng bán thân màu đồng, đặt trên một bệ đá vững chắc, tái hiện hình ảnh Chủ tịch Hồ Chí Minh",
+                        "func": "mang ý nghĩa trang trí và biểu tượng trang trọng cho sự kiện"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "hai bên sân khấu, đối xứng nhau",
+                        "pos3d": "ở gần camera, trên sân khấu"
+                    },
+                    "attr": {
+                        "vis": "hai cột loa lớn màu đen, hình hộp chữ nhật đứng, có lưới bảo vệ phía trước",
+                        "func": "dùng để khuếch đại âm thanh, đảm bảo mọi người trong hội trường đều nghe rõ lời phát biểu và các nội dung âm thanh khác"
+                    }
+                },
+                {
+                    "id_": "E6",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "hai bên sân khấu, cạnh loa",
+                        "pos3d": "ở gần camera, trên sân khấu"
+                    },
+                    "attr": {
+                        "vis": "hai tấm banner đứng hình chữ nhật cao, màu trắng và xanh, in thông tin và logo sự kiện, một bên có dòng chữ \"HIỆP HỘI AN TOÀN THÔNG TIN VIỆT NAM\"",
+                        "func": "cung cấp thông tin bổ sung về sự kiện và các đơn vị tổ chức, đóng vai trò trang trí cho sân khấu"
+                    }
+                },
+                {
+                    "id_": "E7",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "phía sau màn hình LED",
+                        "pos3d": "ở xa phía sau sân khấu"
+                    },
+                    "attr": {
+                        "vis": "rèm vải nhung màu đỏ sẫm, buông rủ tạo cảm giác trang trọng, có gắn biểu tượng búa liềm và ngôi sao vàng lớn, biểu tượng của Đảng Cộng sản Việt Nam",
+                        "func": "tạo phông nền trang trọng cho sân khấu và không gian sự kiện"
+                    }
+                },
+                {
+                    "id_": "E8",
+                    "iden": null,
+                    "pos": {
+                        "pos2d": "chiếm phần lớn không gian phía dưới khung hình, kéo dài ra phía sau",
+                        "pos3d": "ở gần camera và kéo dài ra phía sau"
+                    },
+                    "attr": {
+                        "role": "khán giả, sinh viên tham dự",
+                        "clothing": "đa dạng trang phục từ áo sơ mi đến áo phông, chủ yếu là màu tối hoặc trung tính",
+                        "vis": "chủ yếu là người trẻ tuổi, sinh viên, cả nam và nữ, đang ngồi trên ghế và hướng về sân khấu, thể hiện sự tập trung và nghiêm túc",
+                        "des": "một lượng lớn người đang ngồi trật tự trên các hàng ghế được sắp xếp theo từng dãy trong hội trường, hướng mặt về phía sân khấu và màn hình lớn",
+                        "amount": "hơn 100 người"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "hành động",
+                    "des": "đang đứng sau bục phát biểu"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đứng trước màn hình LED lớn"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "nằm phía trước màn hình LED lớn"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E7",
+                    "type_rel": "vị trí",
+                    "des": "đặt trước rèm sân khấu"
+                },
+                {
+                    "subj": "E5",
+                    "obj": "E2",
+                    "type_rel": "vị trí",
+                    "des": "đặt hai bên bục phát biểu"
+                },
+                {
+                    "subj": "E6",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "đặt cạnh loa"
+                },
+                {
+                    "subj": "E8",
+                    "obj": "E1",
+                    "type_rel": "hành động",
+                    "des": "đang ngồi nghe người thuyết trình"
+                },
+                {
+                    "subj": "E8",
+                    "obj": "E3",
+                    "type_rel": "hành động",
+                    "des": "đang nhìn về phía màn hình LED"
+                },
+                {
+                    "subj": "E7",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "nằm phía sau màn hình LED"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "CUỘC THI SINH VIÊN VỚI AN TOÀN THÔNG TIN ASBEAN 2023",
+                    "des": "Tên cuộc thi chính"
+                },
+                {
+                    "content": "ASBEAN STUDENT CONTEST ON OPERATION SECURITY 2023",
+                    "des": "Tên cuộc thi bằng tiếng Anh"
+                },
+                {
+                    "content": "ĐƠN VỊ TÀI TRỢ CHÍNH",
+                    "des": "Tiêu đề phần thông tin tài trợ"
+                },
+                {
+                    "content": "ÔNG NGUYỄN XUÂN NAM",
+                    "des": "Tên của nhà tài trợ hoặc diễn giả"
+                },
+                {
+                    "content": "Giám đốc chiến lược, Công ty An ninh mạng Viettel",
+                    "des": "Chức danh và đơn vị của Ông Nguyễn Xuân Nam"
+                },
+                {
+                    "content": "HIỆP HỘI AN TOÀN THÔNG TIN VIỆT NAM",
+                    "des": "Tên hiệp hội tổ chức cuộc thi"
+                }
+            ]
+        }
+    },
+    {
+        "caption_image_event": {
+            "keyframe_number": "2469",
+            "visual_caption": "Trong một bối cảnh studio truyền hình hiện đại, một người đàn ông và một người phụ nữ đang đứng trên một bộ sân khấu được thiết kế cong, phản chiếu ánh sáng và hình ảnh thành phố. Người đàn ông ở phía bên trái, khoảng 40-50 tuổi, mặc bộ vest màu xám lịch lãm, với vẻ mặt chuyên nghiệp. Người phụ nữ ở phía bên phải, trẻ hơn, mặc một chiếc váy màu hồng nổi bật, cũng đứng thẳng và nhìn về phía trước. Cả hai đều có tư thế của người dẫn chương trình hoặc phóng viên. Phía sau họ là một màn hình cong lớn, hiển thị hình ảnh một thành phố hiện đại với các tòa nhà cao tầng và ánh sáng lung linh, tạo cảm giác về một chương trình tin tức hoặc thời sự. Trên màn hình và cả trên một bục phát biểu nhỏ màu trắng ở phía trước, có logo \"60 giây\" rõ ràng, cho thấy đây là chương trình tin tức \"60 giây\". Ánh sáng đèn studio làm nổi bật hai nhân vật chính và không gian xung quanh. Bối cảnh này cho thấy sự kiện về an toàn thông tin đang được đưa tin hoặc thảo luận trong một chương trình truyền hình, chuyển từ không gian sự kiện trực tiếp sang một môi trường phát sóng. Toàn bộ khung cảnh mang tính chất chuyên nghiệp và hiện đại của một chương trình truyền hình.",
+            "image_path": "../sample/event_0/00002469.jpg",
+            "asr_text": "Kính thưa quý vị, tối qua tại Hà Nội đã diễn ra lễ tổng kết và trao giải vòng chung khảo cuộc thi sinh viên với an toàn thông tin ASIAN năm 2023. Cuộc thi do Hiệp hội An toàn thông tin Việt Nam phối hợp với Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông tổ chức. Vượt qua tám mươi đội thi Việt Nam và ba mươi lăm đội đến từ chín nước ASEAN, đội tuyển của Học viện Kỹ thuật Mật mã cơ sở Hà Nội đã xuất sắc giành giải nhất bài thi dạng CTF và đại diện Việt Nam tham dự cuộc thi Cyber Security Challenge 2023 sắp tới. Ba giải nhì đã được trao cho ba đội đến từ Học viện Kỹ thuật Mật mã cơ sở Thành phố Hồ Chí Minh, Đại học Duy Tân và Học viện Kỹ thuật Quân sự. Đây là lần thứ mười sáu cuộc thi được tổ chức ở Việt Nam và lần thứ năm mở rộng cho sinh viên ASEAN tham dự. Cuộc thi nhằm tuyên truyền, phổ biến, nâng cao nhận thức và trách nhiệm về an toàn thông tin ở các cơ sở giáo dục và đào tạo bậc đại học, qua đó phát hiện những tài năng trong lĩnh vực an toàn thông tin, thúc đẩy đào tạo nguồn nhân lực có trình độ cao về an toàn thông tin của Việt Nam."
+        },
+        "scene_graph": {
+            "sce_id": "scene_1",
+            "sce_des": "Bối cảnh là một trường quay tin tức hiện đại, nơi hai người dẫn chương trình đang đứng để truyền tải thông tin. Phông nền phía sau là một khung cảnh thành phố rộng lớn lúc bình minh hoặc hoàng hôn với bầu trời cam vàng rực rỡ và các tòa nhà cao tầng. Không gian được chiếu sáng bằng đèn studio, tạo ra một không khí chuyên nghiệp và rõ ràng.",
+            "ents": [
+                {
+                    "id_": "E1",
+                    "iden": {
+                        "name": null,
+                        "label": "người dẫn chương trình",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm phía trước, bên trái bục phát biểu",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "áo sơ mi dài tay màu trắng, cà vạt sọc trắng đen, quần tối màu",
+                        "vis": "nam, khoảng 25-30 tuổi, tóc ngắn gọn gàng, dáng người cân đối, biểu cảm nghiêm túc và chuyên nghiệp",
+                        "role": "người dẫn chương trình thời sự"
+                    }
+                },
+                {
+                    "id_": "E2",
+                    "iden": {
+                        "name": null,
+                        "label": "người dẫn chương trình",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "trung tâm phía trước, bên phải bục phát biểu",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "clothing": "váy dài màu be nhã nhặn, kín đáo",
+                        "vis": "nữ, khoảng 25-30 tuổi, tóc dài xõa tự nhiên, dáng người mảnh mai, biểu cảm nghiêm túc và chuyên nghiệp",
+                        "role": "người dẫn chương trình thời sự"
+                    }
+                },
+                {
+                    "id_": "E3",
+                    "iden": {
+                        "name": null,
+                        "label": "bục phát biểu",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "giữa khung hình, phía trước hai người dẫn chương trình",
+                        "pos3d": "gần camera"
+                    },
+                    "attr": {
+                        "vis": "thiết kế hiện đại với đường cong mềm mại, màu trắng và xám chủ đạo, có một mảng màu đỏ nổi bật ở phía trước với logo và chữ '60 giây'",
+                        "func": "dùng làm nơi đứng và hỗ trợ cho người dẫn chương trình trong việc trình bày tin tức"
+                    }
+                },
+                {
+                    "id_": "E4",
+                    "iden": {
+                        "name": null,
+                        "label": "màn hình hiển thị",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía bên phải của khung hình",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "vis": "màn hình lớn hình chữ nhật màu trắng, hiển thị logo và chữ '60 giây' màu đỏ",
+                        "func": "hiển thị thông tin đồ họa, logo chương trình hoặc các nội dung liên quan đến tin tức"
+                    }
+                },
+                {
+                    "id_": "E5",
+                    "iden": {
+                        "name": null,
+                        "label": "tấm vách trang trí",
+                        "brand": null
+                    },
+                    "pos": {
+                        "pos2d": "phía bên phải của khung hình, sau lưng nữ MC",
+                        "pos3d": "xa phía sau"
+                    },
+                    "attr": {
+                        "role": null,
+                        "clothing": null,
+                        "vis": null,
+                        "des": "một nhóm các tấm vách màu đen hình trụ dọc, sắp xếp song song, tạo điểm nhấn và chiều sâu cho không gian trường quay",
+                        "amount": "nhiều"
+                    }
+                }
+            ],
+            "rels": [
+                {
+                    "subj": "E1",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đứng phía sau và bên trái của bục phát biểu"
+                },
+                {
+                    "subj": "E2",
+                    "obj": "E3",
+                    "type_rel": "vị trí",
+                    "des": "đứng phía sau và bên phải của bục phát biểu"
+                },
+                {
+                    "subj": "E1",
+                    "obj": "E2",
+                    "type_rel": "tương tác",
+                    "des": "cùng dẫn chương trình trong một trường quay"
+                },
+                {
+                    "subj": "E4",
+                    "obj": "E5",
+                    "type_rel": "vị trí",
+                    "des": "được đặt phía trước tấm vách trang trí"
+                }
+            ],
+            "ocr": [
+                {
+                    "content": "60 giây",
+                    "des": "Tên chương trình tin tức được hiển thị trên bục phát biểu và màn hình lớn."
+                },
+                {
+                    "content": "chỗ ở người cầm đầu vụ phản đối xây cảng Long Sơn",
+                    "des": "Một phần của dòng tin tức chạy ngang dưới màn hình."
+                },
+                {
+                    "content": "Cần Thơ: Triều cường vượt báo động",
+                    "des": "Một phần khác của dòng tin tức chạy ngang dưới màn hình, thông báo về tình hình thời tiết."
+                }
+            ]
+        }
+    }
+]

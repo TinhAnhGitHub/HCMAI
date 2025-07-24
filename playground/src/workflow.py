@@ -2,7 +2,7 @@ import os
 import json 
 import asyncio 
 from pathlib import Path
-from typing import  Union, Annotated
+from typing import  Union, Annotated, cast
 
 from dotenv import load_dotenv
 
@@ -15,35 +15,11 @@ from llama_index.core.workflow import (
 )
 from llama_index.core.workflow.resource import Resource
 from llama_index.llms.google_genai import GoogleGenAI
-
-from output_schema import (
-    OutputVisualCaption,
-    SceneGraph,
-    SceneDescription,
-    Relation,
-    CaptionAndImageEvent,
-    DebugIntermediate,
-    IntermediateResultEvent,
-    DebugEndEvent,
-    AllCaptionsDispatchedEvent, 
-    AnalysisStartEvent,
-    Entity,
-    EntityAttributes,
-    IdentityInfo,
-
-    EntityIsObject,
-    EntityIsHuman,
-    EntityIsGroup,
-    EntityIsOCR,
-
-    ObjectVisual
-
-
-)
+from schema import VisSceneCap, SceneGraph
 
 from keyframe_analysis_prompt import visual_caption_prompt, scene_graph_generation_prompt
+from event import AnalysisStartEvent, CaptionAndImageEvent, DebugIntermediate, DebugEndEvent, AllCaptionsDispatchedEvent, IntermediateResultEvent
 
-from llama_index.core.workflow import StopEvent
 
 
 
@@ -53,9 +29,12 @@ load_dotenv()
 def get_flash_lite_llm() -> GoogleGenAI:
 
     return GoogleGenAI(
-        model="models/gemini-2.5-flash-lite",
+        model="models/gemini-2.5-flash",
         api_key=os.getenv("GOOGLE_GENAI_API_KEY"),
+        max_output_tokens=65536,
+        min_output_tokens=6000,
         temperature=1,
+        top_p=0.95, 
     )
 
 def get_prompt(prompt_str: str):
@@ -114,11 +93,11 @@ class SceneAnalysisWorkflow(Workflow):
             )
         ]
         print("--- Print before running ---")
-        responses = await llm.as_structured_llm(OutputVisualCaption).achat(messages)
+        responses = await llm.as_structured_llm(VisSceneCap).achat(messages)
         print("--- Print after running ---")
-        output_obj: OutputVisualCaption = responses.raw
+        output_obj: VisSceneCap = cast(VisSceneCap, responses.raw)
 
-        for caption_obj in output_obj.visual_caption:
+        for caption_obj in output_obj.vis_cap:
             
             keyframe_number = str(caption_obj.keyframe_number)
             if keyframe_number in image_map:
@@ -132,20 +111,20 @@ class SceneAnalysisWorkflow(Workflow):
                 ctx.send_event(event)
             
         
-        await ctx.set("all_captions_event", AllCaptionsDispatchedEvent(
-            caption_count=len(output_obj.visual_caption)
+        await ctx.store.set("all_captions_event", AllCaptionsDispatchedEvent(
+            caption_count=len(output_obj.vis_cap)
         ))
         
 
         return AllCaptionsDispatchedEvent(
-            caption_count=len(output_obj.visual_caption)
+            caption_count=len(output_obj.vis_cap)
         )
     
 
     
 
 
-    @step(num_workers=1)
+    @step(num_workers=2)
     async def generate_scene_graph(
         self,
         ev: CaptionAndImageEvent,
@@ -163,9 +142,18 @@ class SceneAnalysisWorkflow(Workflow):
 
         messages = [ChatMessage(role='user', blocks=[ImageBlock(path=Path(ev.image_path)), TextBlock(text=formatted_scene_graph_prompt)])]
 
-        generated_scene_graph = await llm.as_structured_llm(EntityAttributes).achat(messages)
-        scene_graph_obj = generated_scene_graph.raw
+        
 
+        generated_scene_graph = await llm.as_structured_llm(SceneGraph).achat(messages)
+
+        print("--- RAW Gemini Output ---")
+        print(generated_scene_graph.raw)
+
+
+        scene_graph_obj = cast(SceneGraph, generated_scene_graph.raw)
+
+
+        
         debug_data = DebugIntermediate(
             caption_image_event=ev,
             scene_graph=scene_graph_obj
@@ -183,7 +171,7 @@ class SceneAnalysisWorkflow(Workflow):
         if isinstance(ev, AllCaptionsDispatchedEvent):
             print(f"--- Running Step 3: Collector is now waiting for {ev.caption_count} results ---")
         
-        start_event = await ctx.get("all_captions_event")
+        start_event = await ctx.store.get("all_captions_event")
         
 
         if not start_event:
@@ -194,7 +182,7 @@ class SceneAnalysisWorkflow(Workflow):
             ev,
             [IntermediateResultEvent] * start_event.caption_count
         )
-        print("hi")
+        print("after collect events")
         if events is None  :
             return None
         
@@ -228,9 +216,9 @@ async def main():
 
         output_path = '../sample/response/debug_workflow1.json'
 
-        Path(output_path).mkdir(parents=True, exist_ok=True)
+        Path(os.path.dirname(output_path)).mkdir(parents=True, exist_ok=True)
 
-        with open(output_path, 'r', encoding='utf-8') as f:
+        with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(
                 final_output, f, ensure_ascii=False
             )
